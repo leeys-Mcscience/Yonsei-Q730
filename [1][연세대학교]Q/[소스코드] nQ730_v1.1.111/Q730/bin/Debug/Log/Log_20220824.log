@@ -1,0 +1,17 @@
+[13:39:37.274] Software start.
+[13:46:36.477] Dev0[1,1]==> Ch state changed: DISCONNECTED->RUN.
+[13:57:47.537] Dev0==> Start disconnecting.
+[13:57:47.537] Dev0==> Func: stopAllThreads
+[13:57:47.537] Dev0==> All trd stopped.
+[13:57:47.537] Dev0[1,1]==> Ch state changed: RUN->DISCONNECTED.
+[13:57:51.954] Dev0==> Socket disconnect failed. (Cause: ?? ??? ??? ????? ???? ?????.)
+[13:57:51.954] Dev0==> Func: stopAllThreads
+[13:57:51.954] Dev0==> All trd stopped.
+[13:57:51.960] Software exit.
+
+[13:58:14.588] Software start.
+[14:02:22.129] Dev0==> Start disconnecting.
+[14:02:22.129] Dev0==> Func: stopAllThreads
+[14:02:22.129] Dev0==> All trd stopped.
+[14:02:22.132] Software exit.
+

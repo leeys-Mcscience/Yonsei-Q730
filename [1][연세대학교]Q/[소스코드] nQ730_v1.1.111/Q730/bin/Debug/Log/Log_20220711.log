@@ -1,0 +1,33 @@
+[11:29:38.488] Software start.
+[11:30:31.307] Software start.
+[11:31:00.646] Dev0==> Start disconnecting.
+[11:31:00.647] Dev0==> Func: stopAllThreads
+[11:31:00.647] Dev0==> All trd stopped.
+[11:31:00.649] Software exit.
+
+[11:31:34.062] Software start.
+[11:32:17.870] Dev0==> Start disconnecting.
+[11:32:17.871] Dev0==> Func: stopAllThreads
+[11:32:17.871] Dev0==> All trd stopped.
+[11:32:17.873] Software exit.
+
+[13:03:16.407] Software start.
+[13:04:27.589] Dev0==> Start disconnecting.
+[13:04:27.590] Dev0==> Func: stopAllThreads
+[13:04:27.590] Dev0==> All trd stopped.
+[13:04:27.592] Software exit.
+
+[13:04:30.483] Software start.
+[13:04:44.028] Dev0==> Start disconnecting.
+[13:04:44.028] Dev0==> Func: stopAllThreads
+[13:04:44.028] Dev0==> All trd stopped.
+[13:04:44.031] Software exit.
+
+[14:42:11.649] Software start.
+[14:42:50.135] Dev0==> Func: SetTransmissionControl
+[14:42:50.136] Dev0==> Set transmission control failed. (Cause: No response)
+[15:01:50.096] Dev0==> Start disconnecting.
+[15:01:50.097] Dev0==> Func: stopAllThreads
+[15:01:50.097] Dev0==> All trd stopped.
+[15:01:50.101] Software exit.
+

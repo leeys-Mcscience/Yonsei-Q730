@@ -1,0 +1,1680 @@
+[10:01:25.746] Software start.
+[10:01:33.946] Dev0==> Start connecting.
+[10:01:33.946] Dev0==> Socket connect to 192.168.124.2:7000.
+[10:01:33.946] Dev0==> Socket connect done.
+[10:01:33.946] Dev0==> Req new port.
+[10:01:33.962] Dev0==> 8949 port received.
+[10:01:33.962] Dev0==> Socket connect to 192.168.124.2:8949.
+[10:01:34.990] Dev0==> Socket connect done.
+[10:01:34.990] Dev0==> Func: startAllThreads
+[10:01:35.021] Dev0==> Rcv trd start.
+[10:01:35.021] Dev0==> Send trd start.
+[10:01:35.021] Dev0==> Split trd start.
+[10:01:35.021] Dev0==> Schedule trd start.
+[10:01:35.021] Dev0==> Parsing trd start.
+[10:01:35.021] Dev0==> All trd started.
+[10:01:35.021] Dev0==> Connect done.
+[10:01:35.021] Dev0==> Init com start.
+[10:01:35.150] Dev0==> Step1: Register check & clear
+[10:01:35.150] Dev0==> Step2: Get board info.
+[10:01:35.150] Dev0==> Step3: Search slave boards.
+[10:01:35.150] Dev0==> Detected channels: 64
+[10:01:35.150] Dev0[1,1]==> Ch state changed: DISCONNECTED->IDLE.
+[10:01:35.150] Dev0[1,2]==> Ch state changed: DISCONNECTED->IDLE.
+[10:01:35.150] Dev0[1,3]==> Ch state changed: DISCONNECTED->IDLE.
+[10:01:35.150] Dev0[1,4]==> Ch state changed: DISCONNECTED->IDLE.
+[10:01:35.150] Dev0[1,5]==> Ch state changed: DISCONNECTED->IDLE.
+[10:01:35.150] Dev0[1,6]==> Ch state changed: DISCONNECTED->IDLE.
+[10:01:35.150] Dev0[1,7]==> Ch state changed: DISCONNECTED->IDLE.
+[10:01:35.150] Dev0[1,8]==> Ch state changed: DISCONNECTED->IDLE.
+[10:01:35.181] Dev0==> Init com done.
+[10:01:35.181] Dev0==> Func: RemoveSavedData
+[10:01:35.197] Dev0==> Remove saved data failed. (Cause: ERR not zero)
+[10:02:47.845] Dev0[0,0]==> Func: GetRegister
+[10:02:47.845] Dev0==> Get reg done. (Res: 0x0002 = SdInitialFail)
+[10:02:47.845] Dev0[1,1]==> Func: InitSafetyAlarm
+[10:02:47.860] Dev0[1,1]==> Init safety alarm done.
+[10:02:47.860] Dev0[1,1]==> Ch state changed: IDLE->SENDING.
+[10:02:47.860] Dev0[1,1]==> Send seq start. (Name: CoinCell, Packets: 1 EA)
+[10:02:47.860] Dev0[1,1]==> Send rcp[0]. (ErrCount = 0)
+[10:02:48.188] Dev0[1,1]==> Send rcp[0] done.
+[10:02:48.188] Dev0[1,1]==> Send seq done.
+[10:02:48.205] Dev0[1,1]==> Ready exception : 'C:\Users\Mcscience\Desktop\??? ?? 16??\?\test' ??? ?? ???? ???????.
+[10:02:48.205] Dev0[1,1]==> Ch state changed: SENDING->READY.
+[10:02:48.205] Dev0[1,1]==> Func: StartChannel
+[10:02:48.455] Dev0[1,1]==> Ch state changed: READY->IDLE.
+[10:02:48.657] Dev0[1,1]==> Ch trd start.
+[10:02:49.540] Dev0[1,1]==> Ch state changed: IDLE->RUN.
+[10:16:36.875] Dev0[1,1]==> Func: SkipChannel.
+[10:16:48.788] Dev0[1,1]==> Func: StopChannel.
+[10:16:48.897] Dev0[1,1]==> Ch state changed: RUN->IDLE.
+[10:21:17.219] Dev0[0,0]==> Func: GetRegister
+[10:21:17.234] Dev0==> Get reg done. (Res: 0x0002 = SdInitialFail)
+[10:21:17.234] Dev0[1,1]==> Func: InitSafetyAlarm
+[10:21:17.234] Dev0[1,1]==> Init safety alarm done.
+[10:21:17.234] Dev0[1,1]==> Ch state changed: IDLE->SENDING.
+[10:21:17.234] Dev0[1,1]==> Send seq start. (Name: CoinCell, Packets: 1 EA)
+[10:21:17.234] Dev0[1,1]==> Send rcp[0]. (ErrCount = 0)
+[10:21:17.359] Dev0[1,1]==> Send rcp[0] done.
+[10:21:17.359] Dev0[1,1]==> Send seq done.
+[10:21:17.359] Dev0[1,1]==> Ready exception : 'C:\Users\Mcscience\Desktop\??? ?? 16??\?\test' ??? ?? ???? ???????.
+[10:21:17.359] Dev0[1,1]==> Ch state changed: SENDING->READY.
+[10:21:17.359] Dev0[1,1]==> Func: StartChannel
+[10:21:17.609] Dev0[1,1]==> Ch state changed: READY->IDLE.
+[10:21:20.472] Dev0[1,1]==> Ch state changed: IDLE->RUN.
+[10:22:20.292] Dev0[1,1]==> Func: SkipChannel.
+[10:23:15.730] Dev0[1,1]==> Func: StopChannel.
+[10:23:16.023] Dev0[1,1]==> Ch state changed: RUN->IDLE.
+[10:23:48.440] Dev0==> Start disconnecting.
+[10:23:48.440] Dev0==> Func: stopAllThreads
+[10:23:48.440] Dev0==> Send trd stopped.
+[10:23:48.440] Dev0==> Parsing trd stopped.
+[10:23:48.440] Dev0==> Rcv trd stopped.
+[10:23:48.440] Dev0==> Split trd stopped.
+[10:23:48.440] Dev0==> All trd stopped.
+[10:23:48.440] Dev0[1,1]==> Ch state changed: IDLE->DISCONNECTED.
+[10:23:48.440] Dev0[1,2]==> Ch state changed: IDLE->DISCONNECTED.
+[10:23:48.440] Dev0[1,3]==> Ch state changed: IDLE->DISCONNECTED.
+[10:23:48.440] Dev0[1,4]==> Ch state changed: IDLE->DISCONNECTED.
+[10:23:48.440] Dev0[1,5]==> Ch state changed: IDLE->DISCONNECTED.
+[10:23:48.440] Dev0[1,6]==> Ch state changed: IDLE->DISCONNECTED.
+[10:23:48.440] Dev0[1,1]==> Ch trd stopped.
+[10:23:48.440] Dev0[1,7]==> Ch state changed: IDLE->DISCONNECTED.
+[10:23:48.440] Dev0[1,8]==> Ch state changed: IDLE->DISCONNECTED.
+[10:23:48.455] Dev0==> Socket disconnecting.
+[10:23:48.468] Dev0==> Socket disconnect done.
+[10:49:23.701] Software start.
+[10:49:37.346] Dev0==> Start connecting.
+[10:49:37.346] Dev0==> Socket connect to 192.168.124.2:7000.
+[10:49:37.346] Dev0==> Socket connect done.
+[10:49:37.346] Dev0==> Req new port.
+[10:49:37.361] Dev0==> 40281 port received.
+[10:49:37.361] Dev0==> Socket connect to 192.168.124.2:40281.
+[10:49:38.386] Dev0==> Socket connect done.
+[10:49:38.386] Dev0==> Func: startAllThreads
+[10:49:38.386] Dev0==> Rcv trd start.
+[10:49:38.386] Dev0==> Split trd start.
+[10:49:38.386] Dev0==> Send trd start.
+[10:49:38.386] Dev0==> Schedule trd start.
+[10:49:38.386] Dev0==> Parsing trd start.
+[10:49:38.386] Dev0==> All trd started.
+[10:49:38.386] Dev0==> Connect done.
+[10:49:38.386] Dev0==> Init com start.
+[10:49:38.511] Dev0==> Step1: Register check & clear
+[10:49:38.511] Dev0==> Step2: Get board info.
+[10:49:38.511] Dev0==> Step3: Search slave boards.
+[10:49:38.511] Dev0==> Detected channels: 64
+[10:49:38.511] Dev0[1,1]==> Ch state changed: DISCONNECTED->IDLE.
+[10:49:38.511] Dev0[1,2]==> Ch state changed: DISCONNECTED->IDLE.
+[10:49:38.511] Dev0[1,3]==> Ch state changed: DISCONNECTED->IDLE.
+[10:49:38.511] Dev0[1,4]==> Ch state changed: DISCONNECTED->IDLE.
+[10:49:38.511] Dev0[1,5]==> Ch state changed: DISCONNECTED->IDLE.
+[10:49:38.511] Dev0[1,6]==> Ch state changed: DISCONNECTED->IDLE.
+[10:49:38.511] Dev0[1,7]==> Ch state changed: DISCONNECTED->IDLE.
+[10:49:38.511] Dev0[1,8]==> Ch state changed: DISCONNECTED->IDLE.
+[10:49:38.538] Dev0==> Init com done.
+[10:49:38.538] Dev0==> Func: RemoveSavedData
+[10:50:53.327] Dev0[0,0]==> Func: GetRegister
+[10:50:53.327] Dev0==> Get reg done. (Res: 0x0000 = NoError)
+[10:50:53.327] Dev0[1,1]==> Func: InitSafetyAlarm
+[10:50:53.343] Dev0[1,1]==> Init safety alarm done.
+[10:50:53.343] Dev0[1,1]==> Ch state changed: IDLE->SENDING.
+[10:50:53.359] Dev0[1,1]==> Send seq start. (Name: CoinCell, Packets: 1 EA)
+[10:50:53.359] Dev0[1,1]==> Send rcp[0]. (ErrCount = 0)
+[10:50:53.667] Dev0[1,1]==> Send rcp[0] done.
+[10:50:53.667] Dev0[1,1]==> Send seq done.
+[10:50:53.695] Dev0[1,1]==> Ch state changed: SENDING->READY.
+[10:50:53.695] Dev0[1,1]==> Func: StartChannel
+[10:50:54.011] Dev0[1,1]==> Start channel failed. (Cause: ERR => ActionError(0x01))
+[10:50:54.011] Dev0[1,1]==> Ch state changed: READY->ERROR.
+[10:50:54.214] Dev0[1,1]==> Ch trd start.
+[10:50:54.214] Dev0[1,1]==> Ch trd start.
+[10:50:54.214] Dev0[1,1]==> Ch state changed: ERROR->SAFETY.
+[10:50:54.214] Dev0[1,1]==> Measuring stopped. (SafetyMinVoltage)
+[10:51:03.415] Dev0[1,1]==> Func: StopChannel.
+[10:51:03.509] Dev0[1,1]==> Ch state changed: SAFETY->IDLE.
+[10:51:27.692] Dev0[1,1]==> Func: StopChannel.
+[10:51:29.036] Dev0[0,0]==> Func: GetRegister
+[10:51:29.036] Dev0==> Get reg done. (Res: 0x0000 = NoError)
+[10:51:29.036] Dev0[1,1]==> Func: InitSafetyAlarm
+[10:51:29.052] Dev0[1,1]==> Init safety alarm done.
+[10:51:29.052] Dev0[1,1]==> Ch state changed: IDLE->SENDING.
+[10:51:29.052] Dev0[1,1]==> Send seq start. (Name: CoinCell, Packets: 1 EA)
+[10:51:29.052] Dev0[1,1]==> Send rcp[0]. (ErrCount = 0)
+[10:51:29.161] Dev0[1,1]==> Send rcp[0] done.
+[10:51:29.161] Dev0[1,1]==> Send seq done.
+[10:51:29.185] Dev0[1,1]==> Ch state changed: SENDING->READY.
+[10:51:29.185] Dev0[1,1]==> Func: StartChannel
+[10:51:29.419] Dev0[1,1]==> Ch state changed: READY->IDLE.
+[10:51:32.284] Dev0[1,1]==> Ch state changed: IDLE->RUN.
+[10:51:32.284] Dev0[1,1]==> Ch state changed: IDLE->RUN.
+[10:54:41.050] Dev0==> Start disconnecting.
+[10:54:41.050] Dev0==> Func: stopAllThreads
+[10:54:41.050] Dev0==> Send trd stopped.
+[10:54:41.050] Dev0==> Parsing trd stopped.
+[10:54:41.050] Dev0==> Rcv trd stopped.
+[10:54:41.050] Dev0==> Split trd stopped.
+[10:54:41.050] Dev0==> All trd stopped.
+[10:54:41.050] Dev0[1,1]==> Ch trd stopped.
+[10:54:41.050] Dev0[1,1]==> Ch state changed: RUN->DISCONNECTED.
+[10:54:41.050] Dev0[1,1]==> Ch trd stopped.
+[10:54:41.050] Dev0[1,2]==> Ch state changed: IDLE->DISCONNECTED.
+[10:54:41.050] Dev0[1,3]==> Ch state changed: IDLE->DISCONNECTED.
+[10:54:41.050] Dev0[1,4]==> Ch state changed: IDLE->DISCONNECTED.
+[10:54:41.050] Dev0[1,5]==> Ch state changed: IDLE->DISCONNECTED.
+[10:54:41.050] Dev0[1,6]==> Ch state changed: IDLE->DISCONNECTED.
+[10:54:41.050] Dev0[1,7]==> Ch state changed: IDLE->DISCONNECTED.
+[10:54:41.050] Dev0[1,8]==> Ch state changed: IDLE->DISCONNECTED.
+[10:54:41.050] Dev0==> Socket disconnecting.
+[10:54:41.050] Dev0==> Socket disconnect done.
+[10:54:41.050] Dev0==> Func: stopAllThreads
+[10:54:41.050] Dev0==> All trd stopped.
+[10:54:41.050] Software exit.
+
+[10:54:48.746] Software start.
+[10:54:52.153] Dev0==> Start connecting.
+[10:54:52.153] Dev0==> Socket connect to 192.168.124.2:7000.
+[10:54:52.153] Dev0==> Socket connect done.
+[10:54:52.153] Dev0==> Req new port.
+[10:54:52.153] Dev0==> 27419 port received.
+[10:54:52.153] Dev0==> Socket connect to 192.168.124.2:27419.
+[10:54:53.197] Dev0==> Socket connect done.
+[10:54:53.197] Dev0==> Func: startAllThreads
+[10:54:53.197] Dev0==> Rcv trd start.
+[10:54:53.197] Dev0==> Split trd start.
+[10:54:53.197] Dev0==> Send trd start.
+[10:54:53.197] Dev0==> Parsing trd start.
+[10:54:53.197] Dev0==> Schedule trd start.
+[10:54:53.197] Dev0==> All trd started.
+[10:54:53.197] Dev0==> Connect done.
+[10:54:53.197] Dev0==> Init com start.
+[10:54:53.322] Dev0==> Step1: Register check & clear
+[10:54:53.322] Dev0==> Step2: Get board info.
+[10:54:53.322] Dev0==> Step3: Search slave boards.
+[10:54:53.322] Dev0==> Detected channels: 64
+[10:54:53.322] Dev0[1,1]==> Ch state changed: DISCONNECTED->RUN.
+[10:54:53.322] Dev0[1,2]==> Ch state changed: DISCONNECTED->IDLE.
+[10:54:53.322] Dev0[1,3]==> Ch state changed: DISCONNECTED->IDLE.
+[10:54:53.322] Dev0[1,4]==> Ch state changed: DISCONNECTED->IDLE.
+[10:54:53.322] Dev0[1,5]==> Ch state changed: DISCONNECTED->IDLE.
+[10:54:53.322] Dev0[1,6]==> Ch state changed: DISCONNECTED->IDLE.
+[10:54:53.322] Dev0[1,7]==> Ch state changed: DISCONNECTED->IDLE.
+[10:54:53.322] Dev0[1,8]==> Ch state changed: DISCONNECTED->IDLE.
+[10:54:53.353] Dev0==> Init com done.
+[10:54:53.353] Dev0==> Func: RemoveSavedData
+[10:59:20.255] Dev0==> Start disconnecting.
+[10:59:20.255] Dev0==> Func: stopAllThreads
+[10:59:20.255] Dev0==> Split trd stopped.
+[10:59:20.255] Dev0==> Rcv trd stopped.
+[10:59:20.255] Dev0==> Parsing trd stopped.
+[10:59:20.255] Dev0==> Send trd stopped.
+[10:59:20.255] Dev0==> All trd stopped.
+[10:59:20.255] Dev0[1,1]==> Ch state changed: RUN->DISCONNECTED.
+[10:59:20.255] Dev0[1,2]==> Ch state changed: IDLE->DISCONNECTED.
+[10:59:20.255] Dev0[1,3]==> Ch state changed: IDLE->DISCONNECTED.
+[10:59:20.255] Dev0[1,4]==> Ch state changed: IDLE->DISCONNECTED.
+[10:59:20.255] Dev0[1,5]==> Ch state changed: IDLE->DISCONNECTED.
+[10:59:20.255] Dev0[1,6]==> Ch state changed: IDLE->DISCONNECTED.
+[10:59:20.255] Dev0[1,7]==> Ch state changed: IDLE->DISCONNECTED.
+[10:59:20.255] Dev0[1,8]==> Ch state changed: IDLE->DISCONNECTED.
+[10:59:20.255] Dev0==> Socket disconnecting.
+[10:59:20.255] Dev0==> Socket disconnect done.
+[10:59:21.549] Dev0==> Start connecting.
+[10:59:21.549] Dev0==> Socket connect to 192.168.124.2:7000.
+[10:59:21.549] Dev0==> Socket connect done.
+[10:59:21.549] Dev0==> Req new port.
+[10:59:21.564] Dev0==> 34690 port received.
+[10:59:21.564] Dev0==> Socket connect to 192.168.124.2:34690.
+[10:59:22.592] Dev0==> Socket connect done.
+[10:59:22.592] Dev0==> Func: startAllThreads
+[10:59:22.592] Dev0==> Rcv trd start.
+[10:59:22.592] Dev0==> Split trd start.
+[10:59:22.592] Dev0==> Parsing trd start.
+[10:59:22.592] Dev0==> Send trd start.
+[10:59:22.592] Dev0==> Schedule trd start.
+[10:59:22.592] Dev0==> All trd started.
+[10:59:22.592] Dev0==> Connect done.
+[10:59:22.592] Dev0==> Init com start.
+[10:59:22.717] Dev0==> Step1: Register check & clear
+[10:59:22.717] Dev0==> Step2: Get board info.
+[10:59:22.717] Dev0==> Step3: Search slave boards.
+[10:59:22.717] Dev0==> Detected channels: 64
+[10:59:22.717] Dev0[1,1]==> Ch state changed: DISCONNECTED->RUN.
+[10:59:22.717] Dev0[1,2]==> Ch state changed: DISCONNECTED->IDLE.
+[10:59:22.717] Dev0[1,3]==> Ch state changed: DISCONNECTED->IDLE.
+[10:59:22.717] Dev0[1,4]==> Ch state changed: DISCONNECTED->IDLE.
+[10:59:22.717] Dev0[1,5]==> Ch state changed: DISCONNECTED->IDLE.
+[10:59:22.717] Dev0[1,6]==> Ch state changed: DISCONNECTED->IDLE.
+[10:59:22.717] Dev0[1,7]==> Ch state changed: DISCONNECTED->IDLE.
+[10:59:22.717] Dev0[1,8]==> Ch state changed: DISCONNECTED->IDLE.
+[10:59:22.717] Dev0==> Init com done.
+[10:59:22.717] Dev0==> Func: RemoveSavedData
+[11:00:15.099] Dev0==> Start disconnecting.
+[11:00:15.099] Dev0==> Func: stopAllThreads
+[11:00:15.099] Dev0==> Rcv trd stopped.
+[11:00:15.099] Dev0==> Split trd stopped.
+[11:00:15.099] Dev0==> Send trd stopped.
+[11:00:15.099] Dev0==> Parsing trd stopped.
+[11:00:15.099] Dev0==> All trd stopped.
+[11:00:15.099] Dev0[1,1]==> Ch state changed: RUN->DISCONNECTED.
+[11:00:15.099] Dev0[1,2]==> Ch state changed: IDLE->DISCONNECTED.
+[11:00:15.099] Dev0[1,3]==> Ch state changed: IDLE->DISCONNECTED.
+[11:00:15.099] Dev0[1,4]==> Ch state changed: IDLE->DISCONNECTED.
+[11:00:15.099] Dev0[1,5]==> Ch state changed: IDLE->DISCONNECTED.
+[11:00:15.099] Dev0[1,6]==> Ch state changed: IDLE->DISCONNECTED.
+[11:00:15.099] Dev0[1,7]==> Ch state changed: IDLE->DISCONNECTED.
+[11:00:15.099] Dev0[1,8]==> Ch state changed: IDLE->DISCONNECTED.
+[11:00:15.099] Dev0==> Socket disconnecting.
+[11:00:15.099] Dev0==> Socket disconnect done.
+[11:00:15.099] Dev0==> Func: stopAllThreads
+[11:00:15.099] Dev0==> All trd stopped.
+[11:00:15.099] Software exit.
+
+[11:00:18.289] Software start.
+[11:00:20.625] Dev0==> Start connecting.
+[11:00:20.625] Dev0==> Socket connect to 192.168.124.2:7000.
+[11:00:20.625] Dev0==> Socket connect done.
+[11:00:20.625] Dev0==> Req new port.
+[11:00:20.656] Dev0==> 28257 port received.
+[11:00:20.656] Dev0==> Socket connect to 192.168.124.2:28257.
+[11:00:21.680] Dev0==> Socket connect done.
+[11:00:21.680] Dev0==> Func: startAllThreads
+[11:00:21.680] Dev0==> Rcv trd start.
+[11:00:21.680] Dev0==> Split trd start.
+[11:00:21.680] Dev0==> Schedule trd start.
+[11:00:21.680] Dev0==> Send trd start.
+[11:00:21.680] Dev0==> Parsing trd start.
+[11:00:21.680] Dev0==> All trd started.
+[11:00:21.680] Dev0==> Connect done.
+[11:00:21.680] Dev0==> Init com start.
+[11:00:21.805] Dev0==> Step1: Register check & clear
+[11:00:21.805] Dev0==> Step2: Get board info.
+[11:00:21.805] Dev0==> Step3: Search slave boards.
+[11:00:21.805] Dev0==> Detected channels: 64
+[11:00:21.805] Dev0[1,1]==> Ch state changed: DISCONNECTED->RUN.
+[11:00:21.805] Dev0[1,2]==> Ch state changed: DISCONNECTED->IDLE.
+[11:00:21.805] Dev0[1,3]==> Ch state changed: DISCONNECTED->IDLE.
+[11:00:21.805] Dev0[1,4]==> Ch state changed: DISCONNECTED->IDLE.
+[11:00:21.805] Dev0[1,5]==> Ch state changed: DISCONNECTED->IDLE.
+[11:00:21.805] Dev0[1,6]==> Ch state changed: DISCONNECTED->IDLE.
+[11:00:21.805] Dev0[1,7]==> Ch state changed: DISCONNECTED->IDLE.
+[11:00:21.805] Dev0[1,8]==> Ch state changed: DISCONNECTED->IDLE.
+[11:00:21.821] Dev0==> Init com done.
+[11:00:21.821] Dev0==> Func: RemoveSavedData
+[11:00:38.707] Dev0[0,0]==> Func: GetRegister
+[11:00:38.707] Dev0==> Get reg done. (Res: 0x0000 = NoError)
+[11:00:38.723] Dev0[1,2]==> Func: InitSafetyAlarm
+[11:00:39.910] Dev0[1,2]==> Init safety alarm done.
+[11:00:39.910] Dev0[1,2]==> Ch state changed: IDLE->SENDING.
+[11:00:39.926] Dev0[1,2]==> Send seq start. (Name: CoinCell, Packets: 1 EA)
+[11:00:39.926] Dev0[1,2]==> Send rcp[0]. (ErrCount = 0)
+[11:00:40.254] Dev0[1,2]==> Send rcp[0] done.
+[11:00:40.254] Dev0[1,2]==> Send seq done.
+[11:00:40.268] Dev0[1,2]==> Ch state changed: SENDING->READY.
+[11:00:40.268] Dev0[1,2]==> Func: StartChannel
+[11:00:40.718] Dev0[1,2]==> Start channel failed. (Cause: ERR => ActionError(0x01))
+[11:00:40.718] Dev0[1,2]==> Ch state changed: READY->ERROR.
+[11:00:40.749] Dev0[1,6]==> Appending data detected.
+[11:00:40.749] Dev0[1,1]==> Ch trd start.
+[11:00:40.749] Dev0[1,1]==> Ch trd start.
+[11:00:41.436] Dev0[1,0]==> Appending data end. (ADDR = 0x01)
+[11:00:41.561] Dev0[1,2]==> Ch trd start.
+[11:00:41.561] Dev0[1,2]==> Ch state changed: ERROR->SAFETY.
+[11:00:41.561] Dev0[1,2]==> Measuring stopped. (SafetyMinVoltage)
+[11:03:36.977] Dev0[1,2]==> Func: StopChannel.
+[11:03:37.211] Dev0[1,2]==> Ch state changed: SAFETY->IDLE.
+[11:03:46.442] Dev0[1,1]==> Func: StopChannel.
+[11:03:46.676] Dev0[1,1]==> Ch state changed: RUN->IDLE.
+[11:03:48.870] Dev0[1,2]==> Func: StopChannel.
+[11:03:51.081] Dev0==> Start disconnecting.
+[11:03:51.081] Dev0==> Func: stopAllThreads
+[11:03:51.081] Dev0==> Split trd stopped.
+[11:03:51.081] Dev0==> Parsing trd stopped.
+[11:03:51.081] Dev0==> Send trd stopped.
+[11:03:51.081] Dev0==> Rcv trd stopped.
+[11:03:51.098] Dev0==> All trd stopped.
+[11:03:51.098] Dev0[1,1]==> Ch trd stopped.
+[11:03:51.098] Dev0[1,1]==> Ch state changed: IDLE->DISCONNECTED.
+[11:03:51.098] Dev0[1,2]==> Ch state changed: IDLE->DISCONNECTED.
+[11:03:51.098] Dev0[1,3]==> Ch state changed: IDLE->DISCONNECTED.
+[11:03:51.098] Dev0[1,2]==> Ch trd stopped.
+[11:03:51.098] Dev0[1,4]==> Ch state changed: IDLE->DISCONNECTED.
+[11:03:51.098] Dev0[1,5]==> Ch state changed: IDLE->DISCONNECTED.
+[11:03:51.098] Dev0[1,6]==> Ch state changed: IDLE->DISCONNECTED.
+[11:03:51.098] Dev0[1,7]==> Ch state changed: IDLE->DISCONNECTED.
+[11:03:51.098] Dev0[1,8]==> Ch state changed: IDLE->DISCONNECTED.
+[11:03:51.098] Dev0[1,1]==> Ch trd stopped.
+[11:03:51.124] Dev0==> Socket disconnecting.
+[11:03:51.124] Dev0==> Socket disconnect done.
+[11:03:51.124] Dev0==> Func: stopAllThreads
+[11:03:51.124] Dev0==> All trd stopped.
+[11:03:51.124] Software exit.
+
+[11:10:41.673] Software start.
+[11:10:44.603] Dev0==> Start connecting.
+[11:10:44.603] Dev0==> Socket connect to 192.168.124.2:7000.
+[11:10:44.618] Dev0==> Socket connect done.
+[11:10:44.618] Dev0==> Req new port.
+[11:10:44.618] Dev0==> 62431 port received.
+[11:10:44.618] Dev0==> Socket connect to 192.168.124.2:62431.
+[11:10:45.646] Dev0==> Socket connect done.
+[11:10:45.646] Dev0==> Func: startAllThreads
+[11:10:45.646] Dev0==> Rcv trd start.
+[11:10:45.646] Dev0==> Send trd start.
+[11:10:45.646] Dev0==> Schedule trd start.
+[11:10:45.646] Dev0==> Split trd start.
+[11:10:45.677] Dev0==> Parsing trd start.
+[11:10:45.677] Dev0==> All trd started.
+[11:10:45.677] Dev0==> Connect done.
+[11:10:45.677] Dev0==> Init com start.
+[11:10:45.802] Dev0==> Step1: Register check & clear
+[11:10:45.802] Dev0==> Step2: Get board info.
+[11:10:45.802] Dev0==> Step3: Search slave boards.
+[11:10:45.802] Dev0==> Detected channels: 64
+[11:10:45.802] Dev0[1,1]==> Ch state changed: DISCONNECTED->IDLE.
+[11:10:45.802] Dev0[1,2]==> Ch state changed: DISCONNECTED->IDLE.
+[11:10:45.802] Dev0[1,3]==> Ch state changed: DISCONNECTED->IDLE.
+[11:10:45.802] Dev0[1,4]==> Ch state changed: DISCONNECTED->IDLE.
+[11:10:45.802] Dev0[1,5]==> Ch state changed: DISCONNECTED->IDLE.
+[11:10:45.802] Dev0[1,6]==> Ch state changed: DISCONNECTED->IDLE.
+[11:10:45.802] Dev0[1,7]==> Ch state changed: DISCONNECTED->IDLE.
+[11:10:45.802] Dev0[1,8]==> Ch state changed: DISCONNECTED->IDLE.
+[11:10:45.818] Dev0==> Init com done.
+[11:10:45.818] Dev0==> Func: RemoveSavedData
+[11:20:06.331] Software start.
+[11:20:08.780] Dev0==> Start connecting.
+[11:20:08.780] Dev0==> Socket connect to 192.168.124.2:7000.
+[11:20:08.795] Dev0==> Socket connect done.
+[11:20:08.795] Dev0==> Req new port.
+[11:20:08.795] Dev0==> 39191 port received.
+[11:20:08.795] Dev0==> Socket connect to 192.168.124.2:39191.
+[11:20:09.821] Dev0==> Socket connect done.
+[11:20:09.821] Dev0==> Func: startAllThreads
+[11:20:09.821] Dev0==> Rcv trd start.
+[11:20:09.821] Dev0==> Split trd start.
+[11:20:09.821] Dev0==> Send trd start.
+[11:20:09.821] Dev0==> Schedule trd start.
+[11:20:09.821] Dev0==> Parsing trd start.
+[11:20:09.821] Dev0==> All trd started.
+[11:20:09.821] Dev0==> Connect done.
+[11:20:09.821] Dev0==> Init com start.
+[11:20:09.946] Dev0==> Step1: Register check & clear
+[11:20:09.946] Dev0==> Step2: Get board info.
+[11:20:09.946] Dev0==> Step3: Search slave boards.
+[11:20:09.946] Dev0==> Detected channels: 64
+[11:20:09.946] Dev0[1,1]==> Ch state changed: DISCONNECTED->IDLE.
+[11:20:09.946] Dev0[1,2]==> Ch state changed: DISCONNECTED->IDLE.
+[11:20:09.946] Dev0[1,3]==> Ch state changed: DISCONNECTED->IDLE.
+[11:20:09.946] Dev0[1,4]==> Ch state changed: DISCONNECTED->IDLE.
+[11:20:09.946] Dev0[1,5]==> Ch state changed: DISCONNECTED->IDLE.
+[11:20:09.946] Dev0[1,6]==> Ch state changed: DISCONNECTED->IDLE.
+[11:20:09.946] Dev0[1,7]==> Ch state changed: DISCONNECTED->IDLE.
+[11:20:09.946] Dev0[1,8]==> Ch state changed: DISCONNECTED->IDLE.
+[11:20:09.977] Dev0==> Init com done.
+[11:20:09.977] Dev0==> Func: RemoveSavedData
+[11:21:30.255] Dev0[0,0]==> Func: GetRegister
+[11:21:30.255] Dev0==> Get reg done. (Res: 0x0000 = NoError)
+[11:21:30.255] Dev0[1,1]==> Func: InitSafetyAlarm
+[11:21:30.271] Dev0[1,1]==> Init safety alarm done.
+[11:21:30.271] Dev0[1,1]==> Ch state changed: IDLE->SENDING.
+[11:21:30.271] Dev0[1,1]==> Send seq start. (Name: CoinCell, Packets: 1 EA)
+[11:21:30.271] Dev0[1,1]==> Send rcp[0]. (ErrCount = 0)
+[11:21:30.594] Dev0[1,1]==> Send rcp[0] done.
+[11:21:30.594] Dev0[1,1]==> Send seq done.
+[11:21:30.613] Dev0[1,1]==> Ch state changed: SENDING->READY.
+[11:21:30.613] Dev0[1,1]==> Func: StartChannel
+[11:21:30.847] Dev0[1,1]==> Ch state changed: READY->IDLE.
+[11:21:32.756] Dev0[1,1]==> Ch trd start.
+[11:21:32.772] Dev0[1,1]==> Ch state changed: IDLE->RUN.
+[12:40:13.960] Dev0[1,1]==> Func: StopChannel.
+[12:40:14.052] Dev0[1,1]==> Ch state changed: RUN->IDLE.
+[12:49:33.278] Software start.
+[12:49:40.355] Dev0==> Start connecting.
+[12:49:40.356] Dev0==> Socket connect to 192.168.124.2:7000.
+[12:49:40.358] Dev0==> Socket connect done.
+[12:49:40.358] Dev0==> Req new port.
+[12:49:40.367] Dev0==> 37106 port received.
+[12:49:40.367] Dev0==> Socket connect to 192.168.124.2:37106.
+[12:49:41.378] Dev0==> Socket connect done.
+[12:49:41.378] Dev0==> Func: startAllThreads
+[12:49:41.378] Dev0==> Rcv trd start.
+[12:49:41.378] Dev0==> Send trd start.
+[12:49:41.378] Dev0==> Split trd start.
+[12:49:41.378] Dev0==> Schedule trd start.
+[12:49:41.378] Dev0==> Parsing trd start.
+[12:49:41.378] Dev0==> All trd started.
+[12:49:41.378] Dev0==> Connect done.
+[12:49:41.378] Dev0==> Init com start.
+[12:49:41.503] Dev0==> Step1: Register check & clear
+[12:49:41.503] Dev0==> Step2: Get board info.
+[12:49:41.503] Dev0==> Step3: Search slave boards.
+[12:49:41.503] Dev0==> Detected channels: 64
+[12:49:41.503] Dev0[1,1]==> Ch state changed: DISCONNECTED->IDLE.
+[12:49:41.503] Dev0[1,2]==> Ch state changed: DISCONNECTED->IDLE.
+[12:49:41.503] Dev0[1,3]==> Ch state changed: DISCONNECTED->IDLE.
+[12:49:41.503] Dev0[1,4]==> Ch state changed: DISCONNECTED->IDLE.
+[12:49:41.503] Dev0[1,5]==> Ch state changed: DISCONNECTED->IDLE.
+[12:49:41.503] Dev0[1,6]==> Ch state changed: DISCONNECTED->IDLE.
+[12:49:41.503] Dev0[1,7]==> Ch state changed: DISCONNECTED->IDLE.
+[12:49:41.503] Dev0[1,8]==> Ch state changed: DISCONNECTED->IDLE.
+[12:49:41.534] Dev0==> Init com done.
+[12:50:00.571] Dev0[0,0]==> Func: GetRegister
+[12:50:00.573] Dev0==> Get reg done. (Res: 0x0000 = NoError)
+[12:50:00.573] Dev0[1,1]==> Func: InitSafetyAlarm
+[12:50:00.587] Dev0[1,1]==> Init safety alarm done.
+[12:50:00.587] Dev0[1,1]==> Ch state changed: IDLE->SENDING.
+[12:50:00.587] Dev0[1,1]==> Send seq start. (Name: CoinCell, Packets: 1 EA)
+[12:50:00.587] Dev0[1,1]==> Send rcp[0]. (ErrCount = 0)
+[12:50:08.915] Dev0[1,1]==> Send rcp[0] done.
+[12:50:08.915] Dev0[1,1]==> Send seq done.
+[12:50:08.937] Dev0[1,1]==> Ch state changed: SENDING->READY.
+[12:50:08.937] Dev0[1,1]==> Func: StartChannel
+[12:50:10.543] Dev0[1,1]==> Ch state changed: READY->IDLE.
+[12:50:10.748] Dev0[1,1]==> Ch trd start.
+[12:50:10.764] Dev0[1,1]==> Ch state changed: IDLE->RUN.
+[12:50:33.312] Dev0==> Start disconnecting.
+[12:50:33.312] Dev0==> Func: stopAllThreads
+[12:50:33.312] Dev0==> Rcv trd stopped.
+[12:50:33.312] Dev0==> Split trd stopped.
+[12:50:33.312] Dev0==> Send trd stopped.
+[12:50:33.312] Dev0==> Parsing trd stopped.
+[12:50:33.317] Dev0==> All trd stopped.
+[12:50:33.317] Dev0[1,1]==> Ch trd stopped.
+[12:50:33.317] Dev0[1,1]==> Ch state changed: RUN->DISCONNECTED.
+[12:50:33.317] Dev0[1,2]==> Ch state changed: IDLE->DISCONNECTED.
+[12:50:33.317] Dev0[1,3]==> Ch state changed: IDLE->DISCONNECTED.
+[12:50:33.317] Dev0[1,4]==> Ch state changed: IDLE->DISCONNECTED.
+[12:50:33.317] Dev0[1,5]==> Ch state changed: IDLE->DISCONNECTED.
+[12:50:33.317] Dev0[1,6]==> Ch state changed: IDLE->DISCONNECTED.
+[12:50:33.317] Dev0[1,7]==> Ch state changed: IDLE->DISCONNECTED.
+[12:50:33.317] Dev0[1,8]==> Ch state changed: IDLE->DISCONNECTED.
+[12:50:33.317] Dev0==> Socket disconnecting.
+[12:50:33.330] Dev0==> Socket disconnect done.
+[12:50:33.330] Dev0==> Func: stopAllThreads
+[12:50:33.330] Dev0==> All trd stopped.
+[12:50:33.330] Software exit.
+
+[12:50:37.446] Software start.
+[12:50:40.162] Dev0==> Start connecting.
+[12:50:40.163] Dev0==> Socket connect to 192.168.124.2:7000.
+[12:50:40.165] Dev0==> Socket connect done.
+[12:50:40.165] Dev0==> Req new port.
+[12:50:40.174] Dev0==> 31380 port received.
+[12:50:40.174] Dev0==> Socket connect to 192.168.124.2:31380.
+[12:50:41.201] Dev0==> Socket connect done.
+[12:50:41.201] Dev0==> Func: startAllThreads
+[12:50:41.232] Dev0==> Rcv trd start.
+[12:50:41.232] Dev0==> Split trd start.
+[12:50:41.232] Dev0==> Send trd start.
+[12:50:41.232] Dev0==> Schedule trd start.
+[12:50:41.232] Dev0==> Parsing trd start.
+[12:50:41.232] Dev0==> All trd started.
+[12:50:41.232] Dev0==> Connect done.
+[12:50:41.232] Dev0==> Init com start.
+[12:50:41.341] Dev0==> Step1: Register check & clear
+[12:50:41.357] Dev0==> Step2: Get board info.
+[12:50:41.357] Dev0==> Step3: Search slave boards.
+[12:50:41.357] Dev0==> Detected channels: 64
+[12:50:41.357] Dev0[1,1]==> Ch state changed: DISCONNECTED->RUN.
+[12:50:41.357] Dev0[1,2]==> Ch state changed: DISCONNECTED->IDLE.
+[12:50:41.357] Dev0[1,3]==> Ch state changed: DISCONNECTED->IDLE.
+[12:50:41.357] Dev0[1,4]==> Ch state changed: DISCONNECTED->IDLE.
+[12:50:41.357] Dev0[1,5]==> Ch state changed: DISCONNECTED->IDLE.
+[12:50:41.357] Dev0[1,6]==> Ch state changed: DISCONNECTED->IDLE.
+[12:50:41.357] Dev0[1,7]==> Ch state changed: DISCONNECTED->IDLE.
+[12:50:41.357] Dev0[1,8]==> Ch state changed: DISCONNECTED->IDLE.
+[12:50:41.386] Dev0==> Init com done.
+[12:50:59.950] Software start.
+[12:51:03.142] Dev0==> Start connecting.
+[12:51:03.142] Dev0==> Socket connect to 192.168.124.2:7000.
+[12:51:03.142] Dev0==> Socket connect done.
+[12:51:03.142] Dev0==> Req new port.
+[12:51:03.157] Dev0==> 54368 port received.
+[12:51:03.157] Dev0==> Socket connect to 192.168.124.2:54368.
+[12:51:04.187] Dev0==> Socket connect done.
+[12:51:04.187] Dev0==> Func: startAllThreads
+[12:51:04.219] Dev0==> Rcv trd start.
+[12:51:04.219] Dev0==> Send trd start.
+[12:51:04.219] Dev0==> Split trd start.
+[12:51:04.219] Dev0==> Schedule trd start.
+[12:51:04.219] Dev0==> Parsing trd start.
+[12:51:04.219] Dev0==> All trd started.
+[12:51:04.219] Dev0==> Connect done.
+[12:51:04.219] Dev0==> Init com start.
+[12:51:04.340] Dev0==> Step1: Register check & clear
+[12:51:04.340] Dev0==> Step2: Get board info.
+[12:51:04.340] Dev0==> Step3: Search slave boards.
+[12:51:04.340] Dev0==> Detected channels: 64
+[12:51:04.340] Dev0[1,1]==> Ch state changed: DISCONNECTED->RUN.
+[12:51:04.340] Dev0[1,2]==> Ch state changed: DISCONNECTED->IDLE.
+[12:51:04.340] Dev0[1,3]==> Ch state changed: DISCONNECTED->IDLE.
+[12:51:04.340] Dev0[1,4]==> Ch state changed: DISCONNECTED->IDLE.
+[12:51:04.340] Dev0[1,5]==> Ch state changed: DISCONNECTED->IDLE.
+[12:51:04.340] Dev0[1,6]==> Ch state changed: DISCONNECTED->IDLE.
+[12:51:04.340] Dev0[1,7]==> Ch state changed: DISCONNECTED->IDLE.
+[12:51:04.340] Dev0[1,8]==> Ch state changed: DISCONNECTED->IDLE.
+[12:51:04.387] Dev0==> Init com done.
+[12:53:40.651] Software start.
+[12:53:43.015] Dev0==> Start connecting.
+[12:53:43.016] Dev0==> Socket connect to 192.168.124.2:7000.
+[12:53:43.019] Dev0==> Socket connect done.
+[12:53:43.019] Dev0==> Req new port.
+[12:53:43.027] Dev0==> 17636 port received.
+[12:53:43.027] Dev0==> Socket connect to 192.168.124.2:17636.
+[12:53:44.046] Dev0==> Socket connect done.
+[12:53:44.046] Dev0==> Func: startAllThreads
+[12:53:44.046] Dev0==> Rcv trd start.
+[12:53:44.046] Dev0==> Split trd start.
+[12:53:44.062] Dev0==> Send trd start.
+[12:53:44.062] Dev0==> Schedule trd start.
+[12:53:44.062] Dev0==> Parsing trd start.
+[12:53:44.062] Dev0==> All trd started.
+[12:53:44.062] Dev0==> Connect done.
+[12:53:44.062] Dev0==> Init com start.
+[12:53:44.171] Dev0==> Step1: Register check & clear
+[12:53:44.187] Dev0==> Step2: Get board info.
+[12:53:44.187] Dev0==> Step3: Search slave boards.
+[12:53:44.187] Dev0==> Detected channels: 64
+[12:53:44.187] Dev0[1,1]==> Ch state changed: DISCONNECTED->RUN.
+[12:53:44.187] Dev0[1,2]==> Ch state changed: DISCONNECTED->IDLE.
+[12:53:44.187] Dev0[1,3]==> Ch state changed: DISCONNECTED->IDLE.
+[12:53:44.187] Dev0[1,4]==> Ch state changed: DISCONNECTED->IDLE.
+[12:53:44.187] Dev0[1,5]==> Ch state changed: DISCONNECTED->IDLE.
+[12:53:44.187] Dev0[1,6]==> Ch state changed: DISCONNECTED->IDLE.
+[12:53:44.187] Dev0[1,7]==> Ch state changed: DISCONNECTED->IDLE.
+[12:53:44.187] Dev0[1,8]==> Ch state changed: DISCONNECTED->IDLE.
+[12:53:44.202] Dev0==> Init com done.
+[12:53:45.951] Dev0==> Func: RemoveSavedData
+[12:54:40.053] Software start.
+[12:54:40.991] Dev0==> Start connecting.
+[12:54:40.992] Dev0==> Socket connect to 192.168.124.2:7000.
+[12:54:40.995] Dev0==> Socket connect done.
+[12:54:40.995] Dev0==> Req new port.
+[12:54:41.004] Dev0==> 10080 port received.
+[12:54:41.004] Dev0==> Socket connect to 192.168.124.2:10080.
+[12:54:42.020] Dev0==> Socket connect done.
+[12:54:42.020] Dev0==> Func: startAllThreads
+[12:54:42.020] Dev0==> Rcv trd start.
+[12:54:42.020] Dev0==> Split trd start.
+[12:54:42.020] Dev0==> Send trd start.
+[12:54:42.020] Dev0==> Schedule trd start.
+[12:54:42.020] Dev0==> Parsing trd start.
+[12:54:42.020] Dev0==> All trd started.
+[12:54:42.020] Dev0==> Connect done.
+[12:54:44.418] Dev0==> Init com start.
+[12:54:44.536] Dev0==> Step1: Register check & clear
+[12:54:44.542] Dev0==> Step2: Get board info.
+[12:54:44.542] Dev0==> Step3: Search slave boards.
+[12:54:44.543] Dev0==> Detected channels: 64
+[12:54:44.543] Dev0[1,1]==> Ch state changed: DISCONNECTED->RUN.
+[12:54:44.544] Dev0[1,2]==> Ch state changed: DISCONNECTED->IDLE.
+[12:54:44.544] Dev0[1,3]==> Ch state changed: DISCONNECTED->IDLE.
+[12:54:44.544] Dev0[1,4]==> Ch state changed: DISCONNECTED->IDLE.
+[12:54:44.544] Dev0[1,5]==> Ch state changed: DISCONNECTED->IDLE.
+[12:54:44.544] Dev0[1,6]==> Ch state changed: DISCONNECTED->IDLE.
+[12:54:44.544] Dev0[1,7]==> Ch state changed: DISCONNECTED->IDLE.
+[12:54:44.544] Dev0[1,8]==> Ch state changed: DISCONNECTED->IDLE.
+[12:54:44.571] Dev0==> Init com done.
+[12:58:32.132] Software start.
+[12:58:36.225] Dev0==> Start connecting.
+[12:58:36.226] Dev0==> Socket connect to 192.168.124.2:7000.
+[12:58:36.229] Dev0==> Socket connect done.
+[12:58:36.229] Dev0==> Req new port.
+[12:58:36.237] Dev0==> 48718 port received.
+[12:58:36.237] Dev0==> Socket connect to 192.168.124.2:48718.
+[12:58:37.268] Dev0==> Socket connect done.
+[12:58:37.268] Dev0==> Func: startAllThreads
+[12:58:37.284] Dev0==> Rcv trd start.
+[12:58:37.284] Dev0==> Split trd start.
+[12:58:37.300] Dev0==> Send trd start.
+[12:58:37.300] Dev0==> Schedule trd start.
+[12:58:37.300] Dev0==> Parsing trd start.
+[12:58:37.300] Dev0==> All trd started.
+[12:58:37.315] Dev0==> Connect done.
+[12:58:41.418] Dev0==> Init com start.
+[12:58:41.541] Dev0==> Step1: Register check & clear
+[12:58:41.557] Dev0==> Step2: Get board info.
+[12:58:41.557] Dev0==> Step3: Search slave boards.
+[12:58:41.557] Dev0==> Detected channels: 64
+[12:58:41.557] Dev0[1,1]==> Ch state changed: DISCONNECTED->RUN.
+[12:58:41.557] Dev0[1,2]==> Ch state changed: DISCONNECTED->IDLE.
+[12:58:41.557] Dev0[1,3]==> Ch state changed: DISCONNECTED->IDLE.
+[12:58:41.557] Dev0[1,4]==> Ch state changed: DISCONNECTED->IDLE.
+[12:58:41.557] Dev0[1,5]==> Ch state changed: DISCONNECTED->IDLE.
+[12:58:41.557] Dev0[1,6]==> Ch state changed: DISCONNECTED->IDLE.
+[12:58:41.557] Dev0[1,7]==> Ch state changed: DISCONNECTED->IDLE.
+[12:58:41.557] Dev0[1,8]==> Ch state changed: DISCONNECTED->IDLE.
+[12:58:41.572] Dev0==> Init com done.
+[12:58:44.408] Dev0==> Func: SetTransmissionControl
+[12:58:44.432] Dev0[1,1]==> Appending data detected.
+[12:59:53.034] Dev0[1,1]==> Ch trd start.
+[13:01:07.271] Dev0[0,0]==> Func: GetRegister
+[13:01:07.366] Dev0==> Get reg done. (Res: 0x0000 = NoError)
+[13:01:07.366] Dev0[1,2]==> Func: InitSafetyAlarm
+[13:01:07.382] Dev0[1,2]==> Init safety alarm done.
+[13:01:07.382] Dev0[1,2]==> Ch state changed: IDLE->SENDING.
+[13:01:07.382] Dev0[1,2]==> Send seq start. (Name: CoinCell, Packets: 1 EA)
+[13:01:07.382] Dev0[1,2]==> Send rcp[0]. (ErrCount = 0)
+[13:01:07.804] Dev0[1,2]==> Send rcp[0] done.
+[13:01:07.804] Dev0[1,2]==> Send seq done.
+[13:01:07.833] Dev0[1,2]==> Ch state changed: SENDING->READY.
+[13:01:07.833] Dev0[1,2]==> Func: StartChannel
+[13:01:08.271] Dev0[1,2]==> Start channel failed. (Cause: ERR => ActionError(0x01))
+[13:01:08.271] Dev0[1,2]==> Ch state changed: READY->ERROR.
+[13:01:13.662] Dev0[0,0]==> Func: GetRegister
+[13:01:13.694] Dev0[0,0]==> Get reg done. (Res: NoError)
+[13:01:13.694] Dev0[0,0]==> Func: GetRegister
+[13:01:13.741] Dev0[0,0]==> Get reg done. (Res: NoError)
+[13:01:13.741] Dev0[1,2]==> Func: InitSafetyAlarm
+[13:01:13.804] Dev0[1,2]==> Init safety alarm done.
+[13:01:13.820] Dev0[1,2]==> Func: StopChannel.
+[13:01:14.242] Dev0[1,2]==> Ch state changed: ERROR->IDLE.
+[13:01:16.927] Dev0==> Start disconnecting.
+[13:01:16.927] Dev0==> Func: stopAllThreads
+[13:01:16.927] Dev0==> Rcv trd stopped.
+[13:01:16.927] Dev0==> Parsing trd stopped.
+[13:01:16.927] Dev0==> Split trd stopped.
+[13:01:16.927] Dev0==> Send trd stopped.
+[13:01:16.932] Dev0==> All trd stopped.
+[13:01:16.932] Dev0[1,1]==> Ch trd stopped.
+[13:01:16.932] Dev0[1,1]==> Ch state changed: RUN->DISCONNECTED.
+[13:01:16.932] Dev0[1,2]==> Ch state changed: IDLE->DISCONNECTED.
+[13:01:16.932] Dev0[1,3]==> Ch state changed: IDLE->DISCONNECTED.
+[13:01:16.932] Dev0[1,4]==> Ch state changed: IDLE->DISCONNECTED.
+[13:01:16.932] Dev0[1,5]==> Ch state changed: IDLE->DISCONNECTED.
+[13:01:16.932] Dev0[1,6]==> Ch state changed: IDLE->DISCONNECTED.
+[13:01:16.932] Dev0[1,7]==> Ch state changed: IDLE->DISCONNECTED.
+[13:01:16.932] Dev0[1,8]==> Ch state changed: IDLE->DISCONNECTED.
+[13:01:16.932] Dev0==> Socket disconnecting.
+[13:01:16.947] Dev0==> Socket disconnect done.
+[13:01:16.947] Dev0==> Func: stopAllThreads
+[13:01:16.947] Dev0==> All trd stopped.
+[13:01:16.947] Software exit.
+
+[13:01:33.588] Software start.
+[13:01:36.304] Dev0==> Start connecting.
+[13:01:36.306] Dev0==> Socket connect to 192.168.124.2:7000.
+[13:01:36.308] Dev0==> Socket connect done.
+[13:01:36.308] Dev0==> Req new port.
+[13:01:36.317] Dev0==> 32200 port received.
+[13:01:36.317] Dev0==> Socket connect to 192.168.124.2:32200.
+[13:01:37.344] Dev0==> Socket connect done.
+[13:01:37.344] Dev0==> Func: startAllThreads
+[13:01:37.344] Dev0==> Rcv trd start.
+[13:01:37.344] Dev0==> Split trd start.
+[13:01:37.344] Dev0==> Send trd start.
+[13:01:37.344] Dev0==> Schedule trd start.
+[13:01:37.360] Dev0==> Parsing trd start.
+[13:01:37.360] Dev0==> All trd started.
+[13:01:37.360] Dev0==> Connect done.
+[13:01:37.360] Dev0==> Init com start.
+[13:01:37.469] Dev0==> Step1: Register check & clear
+[13:01:37.469] Dev0==> Step2: Get board info.
+[13:01:37.469] Dev0==> Step3: Search slave boards.
+[13:01:37.469] Dev0==> Detected channels: 64
+[13:01:37.469] Dev0[1,1]==> Ch state changed: DISCONNECTED->RUN.
+[13:01:37.469] Dev0[1,2]==> Ch state changed: DISCONNECTED->IDLE.
+[13:01:37.469] Dev0[1,3]==> Ch state changed: DISCONNECTED->IDLE.
+[13:01:37.469] Dev0[1,4]==> Ch state changed: DISCONNECTED->IDLE.
+[13:01:37.469] Dev0[1,5]==> Ch state changed: DISCONNECTED->IDLE.
+[13:01:37.469] Dev0[1,6]==> Ch state changed: DISCONNECTED->IDLE.
+[13:01:37.469] Dev0[1,7]==> Ch state changed: DISCONNECTED->IDLE.
+[13:01:37.469] Dev0[1,8]==> Ch state changed: DISCONNECTED->IDLE.
+[13:01:37.485] Dev0==> Init com done.
+[13:01:43.582] Dev0==> Func: SetTransmissionControl
+[13:01:53.000] Dev0[1,1]==> Appending data detected.
+[13:01:53.004] Dev0[1,1]==> Ch trd start.
+[13:02:04.948] Dev0[1,0]==> Appending data end. (ADDR = 0x01)
+[13:02:05.028] Dev0[1,2]==> Ch trd start.
+[13:02:05.043] Dev0[1,2]==> Ch state changed: IDLE->SAFETY.
+[13:02:05.043] Dev0[1,2]==> Measuring stopped. (SafetyMinVoltage)
+[13:02:05.340] Dev0[1,2]==> Ch state changed: SAFETY->IDLE.
+[13:02:05.340] Dev0[1,2]==> Measuring stopped. (UserStop)
+[13:02:06.232] Dev0==> Start disconnecting.
+[13:02:06.232] Dev0==> Func: stopAllThreads
+[13:02:06.232] Dev0==> Parsing trd stopped.
+[13:02:06.233] Dev0==> Rcv trd stopped.
+[13:02:06.232] Dev0==> Split trd stopped.
+[13:02:06.232] Dev0==> Send trd stopped.
+[13:02:06.237] Dev0==> All trd stopped.
+[13:02:06.237] Dev0[1,1]==> Ch trd stopped.
+[13:02:06.237] Dev0[1,1]==> Ch state changed: RUN->DISCONNECTED.
+[13:02:06.237] Dev0[1,2]==> Ch state changed: IDLE->DISCONNECTED.
+[13:02:06.237] Dev0[1,2]==> Ch trd stopped.
+[13:02:06.237] Dev0[1,3]==> Ch state changed: IDLE->DISCONNECTED.
+[13:02:06.237] Dev0[1,4]==> Ch state changed: IDLE->DISCONNECTED.
+[13:02:06.237] Dev0[1,5]==> Ch state changed: IDLE->DISCONNECTED.
+[13:02:06.237] Dev0[1,6]==> Ch state changed: IDLE->DISCONNECTED.
+[13:02:06.237] Dev0[1,7]==> Ch state changed: IDLE->DISCONNECTED.
+[13:02:06.237] Dev0[1,8]==> Ch state changed: IDLE->DISCONNECTED.
+[13:02:06.269] Dev0==> Socket disconnecting.
+[13:02:06.269] Dev0==> Socket disconnect done.
+[13:02:06.269] Dev0==> Func: stopAllThreads
+[13:02:06.269] Dev0==> All trd stopped.
+[13:02:06.269] Software exit.
+
+[13:02:09.600] Software start.
+[13:02:12.740] Dev0==> Start connecting.
+[13:02:12.741] Dev0==> Socket connect to 192.168.124.2:7000.
+[13:02:12.743] Dev0==> Socket connect done.
+[13:02:12.743] Dev0==> Req new port.
+[13:02:12.751] Dev0==> 3100 port received.
+[13:02:12.751] Dev0==> Socket connect to 192.168.124.2:3100.
+[13:02:13.778] Dev0==> Socket connect done.
+[13:02:13.778] Dev0==> Func: startAllThreads
+[13:02:13.778] Dev0==> Rcv trd start.
+[13:02:13.778] Dev0==> Split trd start.
+[13:02:13.778] Dev0==> Send trd start.
+[13:02:13.809] Dev0==> Schedule trd start.
+[13:02:13.809] Dev0==> Parsing trd start.
+[13:02:13.809] Dev0==> All trd started.
+[13:02:13.809] Dev0==> Connect done.
+[13:02:13.809] Dev0==> Init com start.
+[13:02:13.918] Dev0==> Step1: Register check & clear
+[13:02:13.918] Dev0==> Step2: Get board info.
+[13:02:13.918] Dev0==> Step3: Search slave boards.
+[13:02:13.918] Dev0==> Detected channels: 64
+[13:02:13.918] Dev0[1,1]==> Ch state changed: DISCONNECTED->RUN.
+[13:02:13.934] Dev0[1,2]==> Ch state changed: DISCONNECTED->IDLE.
+[13:02:13.934] Dev0[1,3]==> Ch state changed: DISCONNECTED->IDLE.
+[13:02:13.934] Dev0[1,4]==> Ch state changed: DISCONNECTED->IDLE.
+[13:02:13.934] Dev0[1,5]==> Ch state changed: DISCONNECTED->IDLE.
+[13:02:13.934] Dev0[1,6]==> Ch state changed: DISCONNECTED->IDLE.
+[13:02:13.934] Dev0[1,7]==> Ch state changed: DISCONNECTED->IDLE.
+[13:02:13.934] Dev0[1,8]==> Ch state changed: DISCONNECTED->IDLE.
+[13:02:13.950] Dev0==> Init com done.
+[13:02:17.701] Dev0==> Func: SetTransmissionControl
+[13:02:18.896] Dev0[1,1]==> Appending data detected.
+[13:02:18.911] Dev0[1,1]==> Ch trd start.
+[13:02:18.943] Dev0[1,0]==> Appending data end. (ADDR = 0x01)
+[13:15:34.820] Software start.
+[13:15:41.845] Dev0==> Start connecting.
+[13:15:41.845] Dev0==> Socket connect to 192.168.124.2:7000.
+[13:15:41.861] Dev0==> Socket connect done.
+[13:15:41.861] Dev0==> Req new port.
+[13:15:41.907] Dev0==> 25874 port received.
+[13:15:41.907] Dev0==> Socket connect to 192.168.124.2:25874.
+[13:15:42.935] Dev0==> Socket connect done.
+[13:15:42.935] Dev0==> Func: startAllThreads
+[13:15:42.935] Dev0==> Rcv trd start.
+[13:15:42.967] Dev0==> Send trd start.
+[13:15:42.967] Dev0==> Split trd start.
+[13:15:42.967] Dev0==> Schedule trd start.
+[13:15:42.967] Dev0==> Parsing trd start.
+[13:15:42.967] Dev0==> All trd started.
+[13:15:42.967] Dev0==> Connect done.
+[13:15:42.967] Dev0==> Init com start.
+[13:15:43.076] Dev0==> Step1: Register check & clear
+[13:15:43.076] Dev0==> Step2: Get board info.
+[13:15:43.076] Dev0==> Step3: Search slave boards.
+[13:15:43.076] Dev0==> Detected channels: 64
+[13:15:43.076] Dev0[1,1]==> Ch state changed: DISCONNECTED->RUN.
+[13:15:43.076] Dev0[1,2]==> Ch state changed: DISCONNECTED->IDLE.
+[13:15:43.076] Dev0[1,3]==> Ch state changed: DISCONNECTED->IDLE.
+[13:15:43.076] Dev0[1,4]==> Ch state changed: DISCONNECTED->IDLE.
+[13:15:43.076] Dev0[1,5]==> Ch state changed: DISCONNECTED->IDLE.
+[13:15:43.076] Dev0[1,6]==> Ch state changed: DISCONNECTED->IDLE.
+[13:15:43.076] Dev0[1,7]==> Ch state changed: DISCONNECTED->IDLE.
+[13:15:43.076] Dev0[1,8]==> Ch state changed: DISCONNECTED->IDLE.
+[13:15:43.123] Dev0==> Init com done.
+[13:15:43.123] Dev0==> Func: SetTransmissionControl
+[13:15:45.969] Dev0[1,1]==> Appending data detected.
+[13:15:45.969] Dev0[1,1]==> Ch trd start.
+[13:16:10.363] Dev0[1,0]==> Appending data end. (ADDR = 0x01)
+[13:26:51.396] Software start.
+[13:29:20.440] Software start.
+[13:29:54.548] Software start.
+[13:29:56.992] Dev0==> Start connecting.
+[13:29:56.992] Dev0==> Socket connect to 192.168.124.2:7000.
+[13:29:56.992] Dev0==> Socket connect done.
+[13:29:56.992] Dev0==> Req new port.
+[13:29:57.023] Dev0==> 29068 port received.
+[13:29:57.023] Dev0==> Socket connect to 192.168.124.2:29068.
+[13:29:58.040] Dev0==> Socket connect done.
+[13:29:58.040] Dev0==> Func: startAllThreads
+[13:29:58.040] Dev0==> Rcv trd start.
+[13:29:58.040] Dev0==> Split trd start.
+[13:29:58.040] Dev0==> Send trd start.
+[13:29:58.040] Dev0==> Schedule trd start.
+[13:29:58.040] Dev0==> Parsing trd start.
+[13:29:58.040] Dev0==> All trd started.
+[13:29:58.040] Dev0==> Connect done.
+[13:29:58.040] Dev0==> Init com start.
+[13:29:58.156] Dev0==> Step1: Register check & clear
+[13:29:58.156] Dev0==> Step2: Get board info.
+[13:29:58.156] Dev0==> Step3: Search slave boards.
+[13:29:58.156] Dev0==> Detected channels: 64
+[13:29:58.156] Dev0[1,1]==> Ch state changed: DISCONNECTED->RUN.
+[13:29:58.156] Dev0[1,2]==> Ch state changed: DISCONNECTED->IDLE.
+[13:29:58.156] Dev0[1,3]==> Ch state changed: DISCONNECTED->IDLE.
+[13:29:58.156] Dev0[1,4]==> Ch state changed: DISCONNECTED->IDLE.
+[13:29:58.156] Dev0[1,5]==> Ch state changed: DISCONNECTED->IDLE.
+[13:29:58.156] Dev0[1,6]==> Ch state changed: DISCONNECTED->IDLE.
+[13:29:58.156] Dev0[1,7]==> Ch state changed: DISCONNECTED->IDLE.
+[13:29:58.156] Dev0[1,8]==> Ch state changed: DISCONNECTED->IDLE.
+[13:29:58.241] Dev0==> Init com done.
+[13:29:58.241] Dev0==> Func: SetTransmissionControl
+[13:29:58.279] Dev0[1,1]==> Appending data detected.
+[13:29:58.279] Dev0[1,1]==> Ch trd start.
+[13:30:42.484] Software start.
+[13:31:49.168] Dev0==> Start connecting.
+[13:31:49.168] Dev0==> Socket connect to 192.168.124.2:7000.
+[13:31:49.184] Dev0==> Socket connect done.
+[13:31:49.184] Dev0==> Req new port.
+[13:31:49.231] Dev0==> 10212 port received.
+[13:31:49.231] Dev0==> Socket connect to 192.168.124.2:10212.
+[13:31:50.249] Dev0==> Socket connect done.
+[13:31:50.249] Dev0==> Func: startAllThreads
+[13:31:50.249] Dev0==> Rcv trd start.
+[13:31:50.249] Dev0==> Split trd start.
+[13:31:50.249] Dev0==> Send trd start.
+[13:31:50.249] Dev0==> Schedule trd start.
+[13:31:50.249] Dev0==> Parsing trd start.
+[13:31:50.249] Dev0==> All trd started.
+[13:31:50.249] Dev0==> Connect done.
+[13:31:50.249] Dev0==> Init com start.
+[13:31:50.365] Dev0==> Step1: Register check & clear
+[13:31:50.418] Dev0==> Step2: Get board info.
+[13:31:50.519] Dev0==> Step3: Search slave boards.
+[13:31:50.650] Dev0==> Detected channels: 64
+[13:31:50.650] Dev0[1,1]==> Ch state changed: DISCONNECTED->RUN.
+[13:31:50.650] Dev0[1,2]==> Ch state changed: DISCONNECTED->IDLE.
+[13:31:50.650] Dev0[1,3]==> Ch state changed: DISCONNECTED->IDLE.
+[13:31:50.650] Dev0[1,4]==> Ch state changed: DISCONNECTED->IDLE.
+[13:31:50.650] Dev0[1,5]==> Ch state changed: DISCONNECTED->IDLE.
+[13:31:50.650] Dev0[1,6]==> Ch state changed: DISCONNECTED->IDLE.
+[13:31:50.650] Dev0[1,7]==> Ch state changed: DISCONNECTED->IDLE.
+[13:31:50.650] Dev0[1,8]==> Ch state changed: DISCONNECTED->IDLE.
+[13:31:50.672] Dev0==> Init com done.
+[13:31:50.672] Dev0==> Func: SetTransmissionControl
+[13:31:50.819] Dev0[1,1]==> Appending data detected.
+[13:31:50.819] Dev0[1,1]==> Ch trd start.
+[13:31:55.716] Dev0[1,0]==> Appending data end. (ADDR = 0x01)
+[13:43:46.552] Software start.
+[13:43:51.714] Dev0==> Start connecting.
+[13:43:51.714] Dev0==> Socket connect to 192.168.124.2:7000.
+[13:43:51.714] Dev0==> Socket connect done.
+[13:43:51.714] Dev0==> Req new port.
+[13:43:51.714] Dev0==> 11849 port received.
+[13:43:51.714] Dev0==> Socket connect to 192.168.124.2:11849.
+[13:43:52.731] Dev0==> Socket connect done.
+[13:43:52.731] Dev0==> Func: startAllThreads
+[13:43:52.731] Dev0==> Rcv trd start.
+[13:43:52.731] Dev0==> Send trd start.
+[13:43:52.731] Dev0==> Split trd start.
+[13:43:52.731] Dev0==> Schedule trd start.
+[13:43:52.731] Dev0==> Parsing trd start.
+[13:43:52.731] Dev0==> All trd started.
+[13:43:52.731] Dev0==> Connect done.
+[13:43:52.731] Dev0==> Init com start.
+[13:43:52.847] Dev0==> Step1: Register check & clear
+[13:43:52.847] Dev0==> Step2: Get board info.
+[13:43:52.847] Dev0==> Step3: Search slave boards.
+[13:43:52.847] Dev0==> Detected channels: 64
+[13:43:52.847] Dev0[1,1]==> Ch state changed: DISCONNECTED->RUN.
+[13:43:52.847] Dev0[1,2]==> Ch state changed: DISCONNECTED->IDLE.
+[13:43:52.847] Dev0[1,3]==> Ch state changed: DISCONNECTED->IDLE.
+[13:43:52.847] Dev0[1,4]==> Ch state changed: DISCONNECTED->IDLE.
+[13:43:52.847] Dev0[1,5]==> Ch state changed: DISCONNECTED->IDLE.
+[13:43:52.847] Dev0[1,6]==> Ch state changed: DISCONNECTED->IDLE.
+[13:43:52.847] Dev0[1,7]==> Ch state changed: DISCONNECTED->IDLE.
+[13:43:52.847] Dev0[1,8]==> Ch state changed: DISCONNECTED->IDLE.
+[13:43:52.869] Dev0==> Init com done.
+[13:43:52.869] Dev0==> Func: SetTransmissionControl
+[13:43:52.963] Dev0[1,1]==> Appending data detected.
+[13:43:52.969] Dev0[1,1]==> Ch trd start.
+[13:43:53.001] Dev0[1,0]==> Appending data end. (ADDR = 0x01)
+[13:49:49.644] Software start.
+[13:49:53.917] Dev0==> Start disconnecting.
+[13:49:53.917] Dev0==> Func: stopAllThreads
+[13:49:53.917] Dev0==> All trd stopped.
+[13:49:53.917] Software exit.
+
+[13:55:43.157] Software start.
+[13:55:45.365] Dev0==> Start connecting.
+[13:55:45.365] Dev0==> Socket connect to 192.168.124.2:7000.
+[13:55:45.371] Dev0==> Socket connect done.
+[13:55:45.371] Dev0==> Req new port.
+[13:55:45.387] Dev0==> 4660 port received.
+[13:55:45.387] Dev0==> Socket connect to 192.168.124.2:4660.
+[13:55:46.405] Dev0==> Socket connect done.
+[13:55:46.405] Dev0==> Func: startAllThreads
+[13:55:46.405] Dev0==> Rcv trd start.
+[13:55:46.405] Dev0==> Send trd start.
+[13:55:46.436] Dev0==> Split trd start.
+[13:55:46.436] Dev0==> Schedule trd start.
+[13:55:46.436] Dev0==> Parsing trd start.
+[13:55:46.436] Dev0==> All trd started.
+[13:55:46.436] Dev0==> Connect done.
+[13:55:46.436] Dev0==> Init com start.
+[13:55:46.552] Dev0==> Step1: Register check & clear
+[13:55:46.552] Dev0==> Step2: Get board info.
+[13:55:46.552] Dev0==> Step3: Search slave boards.
+[13:55:46.552] Dev0==> Detected channels: 64
+[13:55:46.552] Dev0[1,1]==> Ch state changed: DISCONNECTED->RUN.
+[13:55:46.552] Dev0[1,2]==> Ch state changed: DISCONNECTED->IDLE.
+[13:55:46.552] Dev0[1,3]==> Ch state changed: DISCONNECTED->IDLE.
+[13:55:46.552] Dev0[1,4]==> Ch state changed: DISCONNECTED->IDLE.
+[13:55:46.552] Dev0[1,5]==> Ch state changed: DISCONNECTED->IDLE.
+[13:55:46.552] Dev0[1,6]==> Ch state changed: DISCONNECTED->IDLE.
+[13:55:46.552] Dev0[1,7]==> Ch state changed: DISCONNECTED->IDLE.
+[13:55:46.552] Dev0[1,8]==> Ch state changed: DISCONNECTED->IDLE.
+[13:55:46.574] Dev0==> Init com done.
+[13:55:46.574] Dev0==> Func: SetTransmissionControl
+[13:55:46.621] Dev0[1,1]==> Appending data detected.
+[13:55:46.621] Dev0[1,0]==> Appending data end. (ADDR = 0x01)
+[13:55:46.621] Dev0[1,1]==> Ch trd start.
+[13:55:58.877] Software start.
+[13:59:23.635] Software start.
+[14:00:00.263] Software start.
+[14:00:41.780] Dev0==> Start disconnecting.
+[14:00:41.780] Dev0==> Func: stopAllThreads
+[14:00:41.780] Dev0==> All trd stopped.
+[14:00:41.780] Software exit.
+
+[14:02:41.189] Software start.
+[14:02:42.224] Dev0==> Start connecting.
+[14:02:42.234] Dev0==> Socket connect to 192.168.124.2:7000.
+[14:02:42.234] Dev0==> Socket connect done.
+[14:02:42.234] Dev0==> Req new port.
+[14:02:42.254] Dev0==> 28327 port received.
+[14:02:42.254] Dev0==> Socket connect to 192.168.124.2:28327.
+[14:02:43.267] Dev0==> Socket connect done.
+[14:02:43.267] Dev0==> Func: startAllThreads
+[14:02:43.267] Dev0==> Rcv trd start.
+[14:02:43.267] Dev0==> Split trd start.
+[14:02:43.267] Dev0==> Parsing trd start.
+[14:02:43.267] Dev0==> Send trd start.
+[14:02:43.298] Dev0==> Schedule trd start.
+[14:02:43.298] Dev0==> All trd started.
+[14:02:43.298] Dev0==> Connect done.
+[14:02:43.298] Dev0==> Init com start.
+[14:02:43.414] Dev0==> Step1: Register check & clear
+[14:02:43.414] Dev0==> Step2: Get board info.
+[14:02:43.414] Dev0==> Step3: Search slave boards.
+[14:02:43.414] Dev0==> Detected channels: 64
+[14:02:43.414] Dev0[1,1]==> Ch state changed: DISCONNECTED->RUN.
+[14:02:43.414] Dev0[1,2]==> Ch state changed: DISCONNECTED->IDLE.
+[14:02:43.414] Dev0[1,3]==> Ch state changed: DISCONNECTED->IDLE.
+[14:02:43.414] Dev0[1,4]==> Ch state changed: DISCONNECTED->IDLE.
+[14:02:43.414] Dev0[1,5]==> Ch state changed: DISCONNECTED->IDLE.
+[14:02:43.414] Dev0[1,6]==> Ch state changed: DISCONNECTED->IDLE.
+[14:02:43.414] Dev0[1,7]==> Ch state changed: DISCONNECTED->IDLE.
+[14:02:43.414] Dev0[1,8]==> Ch state changed: DISCONNECTED->IDLE.
+[14:02:43.436] Dev0==> Init com done.
+[14:02:43.436] Dev0==> Func: SetTransmissionControl
+[14:02:43.483] Dev0[1,1]==> Appending data detected.
+[14:02:43.499] Dev0[1,1]==> Ch trd start.
+[14:03:02.373] Dev0[1,0]==> Appending data end. (ADDR = 0x01)
+[14:03:56.832] Software start.
+[14:04:00.762] Dev0==> Start connecting.
+[14:04:00.778] Dev0==> Socket connect to 192.168.124.2:7000.
+[14:04:00.778] Dev0==> Socket connect done.
+[14:04:00.778] Dev0==> Req new port.
+[14:04:00.778] Dev0==> 41334 port received.
+[14:04:00.778] Dev0==> Socket connect to 192.168.124.2:41334.
+[14:04:01.811] Dev0==> Socket connect done.
+[14:04:01.811] Dev0==> Func: startAllThreads
+[14:04:01.811] Dev0==> Rcv trd start.
+[14:04:01.811] Dev0==> Send trd start.
+[14:04:01.811] Dev0==> Schedule trd start.
+[14:04:01.811] Dev0==> Split trd start.
+[14:04:01.826] Dev0==> Parsing trd start.
+[14:04:01.826] Dev0==> All trd started.
+[14:04:01.826] Dev0==> Connect done.
+[14:04:01.826] Dev0==> Init com start.
+[14:04:01.942] Dev0==> Step1: Register check & clear
+[14:04:01.949] Dev0==> Step2: Get board info.
+[14:04:01.949] Dev0==> Step3: Search slave boards.
+[14:04:01.949] Dev0==> Detected channels: 64
+[14:04:01.949] Dev0[1,1]==> Ch state changed: DISCONNECTED->RUN.
+[14:04:01.949] Dev0[1,2]==> Ch state changed: DISCONNECTED->IDLE.
+[14:04:01.949] Dev0[1,3]==> Ch state changed: DISCONNECTED->IDLE.
+[14:04:01.949] Dev0[1,4]==> Ch state changed: DISCONNECTED->IDLE.
+[14:04:01.949] Dev0[1,5]==> Ch state changed: DISCONNECTED->IDLE.
+[14:04:01.949] Dev0[1,6]==> Ch state changed: DISCONNECTED->IDLE.
+[14:04:01.949] Dev0[1,7]==> Ch state changed: DISCONNECTED->IDLE.
+[14:04:01.949] Dev0[1,8]==> Ch state changed: DISCONNECTED->IDLE.
+[14:04:01.970] Dev0==> Init com done.
+[14:04:01.971] Dev0==> Func: SetTransmissionControl
+[14:04:02.064] Dev0[1,1]==> Appending data detected.
+[14:04:02.064] Dev0[1,1]==> Ch trd start.
+[14:06:04.831] Software start.
+[14:06:07.241] Dev0==> Start connecting.
+[14:06:07.241] Dev0==> Socket connect to 192.168.124.2:7000.
+[14:06:07.241] Dev0==> Socket connect done.
+[14:06:07.241] Dev0==> Req new port.
+[14:06:07.257] Dev0==> 36741 port received.
+[14:06:07.257] Dev0==> Socket connect to 192.168.124.2:36741.
+[14:06:08.275] Dev0==> Socket connect done.
+[14:06:08.275] Dev0==> Func: startAllThreads
+[14:06:08.275] Dev0==> Rcv trd start.
+[14:06:08.275] Dev0==> Send trd start.
+[14:06:08.275] Dev0==> Split trd start.
+[14:06:08.275] Dev0==> Parsing trd start.
+[14:06:08.275] Dev0==> Schedule trd start.
+[14:06:08.275] Dev0==> All trd started.
+[14:06:08.275] Dev0==> Connect done.
+[14:06:08.275] Dev0==> Init com start.
+[14:06:08.391] Dev0==> Step1: Register check & clear
+[14:06:08.391] Dev0==> Step2: Get board info.
+[14:06:08.475] Dev0==> Step3: Search slave boards.
+[14:06:08.475] Dev0==> Detected channels: 64
+[14:06:08.475] Dev0[1,1]==> Ch state changed: DISCONNECTED->RUN.
+[14:06:08.475] Dev0[1,2]==> Ch state changed: DISCONNECTED->IDLE.
+[14:06:08.475] Dev0[1,3]==> Ch state changed: DISCONNECTED->IDLE.
+[14:06:08.475] Dev0[1,4]==> Ch state changed: DISCONNECTED->IDLE.
+[14:06:08.475] Dev0[1,5]==> Ch state changed: DISCONNECTED->IDLE.
+[14:06:08.475] Dev0[1,6]==> Ch state changed: DISCONNECTED->IDLE.
+[14:06:08.475] Dev0[1,7]==> Ch state changed: DISCONNECTED->IDLE.
+[14:06:08.475] Dev0[1,8]==> Ch state changed: DISCONNECTED->IDLE.
+[14:06:08.529] Dev0==> Init com done.
+[14:06:08.529] Dev0==> Func: SetTransmissionControl
+[14:06:08.544] Dev0[1,2]==> Appending data detected.
+[14:06:08.544] Dev0[1,1]==> Ch trd start.
+[14:07:57.742] Software start.
+[14:07:59.216] Dev0==> Start connecting.
+[14:07:59.216] Dev0==> Socket connect to 192.168.124.2:7000.
+[14:07:59.216] Dev0==> Socket connect done.
+[14:07:59.216] Dev0==> Req new port.
+[14:07:59.216] Dev0==> 17640 port received.
+[14:07:59.216] Dev0==> Socket connect to 192.168.124.2:17640.
+[14:08:00.251] Dev0==> Socket connect done.
+[14:08:00.251] Dev0==> Func: startAllThreads
+[14:08:00.273] Dev0==> Rcv trd start.
+[14:08:00.273] Dev0==> Split trd start.
+[14:08:00.273] Dev0==> Send trd start.
+[14:08:00.304] Dev0==> Schedule trd start.
+[14:08:00.304] Dev0==> Parsing trd start.
+[14:08:00.304] Dev0==> All trd started.
+[14:08:00.304] Dev0==> Connect done.
+[14:08:00.304] Dev0==> Init com start.
+[14:08:00.420] Dev0==> Step1: Register check & clear
+[14:08:00.420] Dev0==> Step2: Get board info.
+[14:08:00.420] Dev0==> Step3: Search slave boards.
+[14:08:00.420] Dev0==> Detected channels: 64
+[14:08:00.420] Dev0[1,1]==> Ch state changed: DISCONNECTED->RUN.
+[14:08:00.420] Dev0[1,2]==> Ch state changed: DISCONNECTED->IDLE.
+[14:08:00.420] Dev0[1,3]==> Ch state changed: DISCONNECTED->IDLE.
+[14:08:00.420] Dev0[1,4]==> Ch state changed: DISCONNECTED->IDLE.
+[14:08:00.420] Dev0[1,5]==> Ch state changed: DISCONNECTED->IDLE.
+[14:08:00.420] Dev0[1,6]==> Ch state changed: DISCONNECTED->IDLE.
+[14:08:00.420] Dev0[1,7]==> Ch state changed: DISCONNECTED->IDLE.
+[14:08:00.420] Dev0[1,8]==> Ch state changed: DISCONNECTED->IDLE.
+[14:08:00.436] Dev0==> Init com done.
+[14:08:00.436] Dev0==> Func: SetTransmissionControl
+[14:08:00.489] Dev0[1,1]==> Appending data detected.
+[14:08:00.489] Dev0[1,1]==> Ch trd start.
+[14:08:36.777] Software start.
+[14:08:37.711] Dev0==> Start connecting.
+[14:08:37.711] Dev0==> Socket connect to 192.168.124.2:7000.
+[14:08:37.711] Dev0==> Socket connect done.
+[14:08:37.711] Dev0==> Req new port.
+[14:08:37.727] Dev0==> 56143 port received.
+[14:08:37.727] Dev0==> Socket connect to 192.168.124.2:56143.
+[14:08:38.761] Dev0==> Socket connect done.
+[14:08:38.761] Dev0==> Func: startAllThreads
+[14:08:38.761] Dev0==> Rcv trd start.
+[14:08:38.761] Dev0==> Send trd start.
+[14:08:38.761] Dev0==> Split trd start.
+[14:08:38.761] Dev0==> Schedule trd start.
+[14:08:38.761] Dev0==> Parsing trd start.
+[14:08:38.761] Dev0==> All trd started.
+[14:08:38.761] Dev0==> Connect done.
+[14:08:38.761] Dev0==> Init com start.
+[14:08:38.877] Dev0==> Step1: Register check & clear
+[14:08:38.883] Dev0==> Step2: Get board info.
+[14:08:38.883] Dev0==> Step3: Search slave boards.
+[14:08:38.883] Dev0==> Detected channels: 64
+[14:08:38.883] Dev0[1,1]==> Ch state changed: DISCONNECTED->RUN.
+[14:08:38.883] Dev0[1,2]==> Ch state changed: DISCONNECTED->IDLE.
+[14:08:38.883] Dev0[1,3]==> Ch state changed: DISCONNECTED->IDLE.
+[14:08:38.883] Dev0[1,4]==> Ch state changed: DISCONNECTED->IDLE.
+[14:08:38.883] Dev0[1,5]==> Ch state changed: DISCONNECTED->IDLE.
+[14:08:38.883] Dev0[1,6]==> Ch state changed: DISCONNECTED->IDLE.
+[14:08:38.883] Dev0[1,7]==> Ch state changed: DISCONNECTED->IDLE.
+[14:08:38.883] Dev0[1,8]==> Ch state changed: DISCONNECTED->IDLE.
+[14:08:38.899] Dev0==> Init com done.
+[14:08:38.899] Dev0==> Func: SetTransmissionControl
+[14:08:38.930] Dev0[1,1]==> Appending data detected.
+[14:08:38.930] Dev0[1,1]==> Ch trd start.
+[14:08:54.680] Dev0[1,0]==> Appending data end. (ADDR = 0x01)
+[14:22:10.823] Software start.
+[14:22:13.655] Dev0==> Start connecting.
+[14:22:13.655] Dev0==> Socket connect to 192.168.124.2:7000.
+[14:22:13.655] Dev0==> Socket connect done.
+[14:22:13.655] Dev0==> Req new port.
+[14:22:13.670] Dev0==> 20166 port received.
+[14:22:13.670] Dev0==> Socket connect to 192.168.124.2:20166.
+[14:22:14.688] Dev0==> Socket connect done.
+[14:22:14.688] Dev0==> Func: startAllThreads
+[14:22:14.719] Dev0==> Rcv trd start.
+[14:22:14.719] Dev0==> Split trd start.
+[14:22:14.719] Dev0==> Send trd start.
+[14:22:14.757] Dev0==> Parsing trd start.
+[14:22:14.757] Dev0==> Schedule trd start.
+[14:22:14.757] Dev0==> All trd started.
+[14:22:14.757] Dev0==> Connect done.
+[14:22:14.757] Dev0==> Init com start.
+[14:22:14.872] Dev0==> Step1: Register check & clear
+[14:22:14.872] Dev0==> Step2: Get board info.
+[14:22:14.888] Dev0==> Step3: Search slave boards.
+[14:22:14.888] Dev0==> Detected channels: 64
+[14:22:14.888] Dev0[1,1]==> Ch state changed: DISCONNECTED->RUN.
+[14:22:14.888] Dev0[1,2]==> Ch state changed: DISCONNECTED->IDLE.
+[14:22:14.888] Dev0[1,3]==> Ch state changed: DISCONNECTED->IDLE.
+[14:22:14.888] Dev0[1,4]==> Ch state changed: DISCONNECTED->IDLE.
+[14:22:14.888] Dev0[1,5]==> Ch state changed: DISCONNECTED->IDLE.
+[14:22:14.888] Dev0[1,6]==> Ch state changed: DISCONNECTED->IDLE.
+[14:22:14.888] Dev0[1,7]==> Ch state changed: DISCONNECTED->IDLE.
+[14:22:14.888] Dev0[1,8]==> Ch state changed: DISCONNECTED->IDLE.
+[14:22:14.919] Dev0==> Init com done.
+[14:22:14.919] Dev0==> Func: SetTransmissionControl
+[14:22:14.941] Dev0[1,1]==> Appending data detected.
+[14:22:14.957] Dev0[1,1]==> Ch trd start.
+[14:22:31.998] Dev0[1,1]==> Func: PauseChannel.
+[14:22:32.076] Dev0[1,1]==> Ch state changed: RUN->PAUSED.
+[14:22:32.098] Dev0[1,1]==> Ch state changed: PAUSED->RUN.
+[14:22:34.953] Dev0[1,1]==> Func: PauseChannel.
+[14:22:34.984] Dev0[1,1]==> Ch state changed: RUN->PAUSED.
+[14:22:35.006] Dev0[1,1]==> Ch state changed: PAUSED->RUN.
+[14:22:35.986] Dev0[1,1]==> Func: PauseChannel.
+[14:22:36.040] Dev0[1,1]==> Ch state changed: RUN->PAUSED.
+[14:22:36.071] Dev0[1,1]==> Ch state changed: PAUSED->RUN.
+[14:22:36.541] Dev0[1,1]==> Func: PauseChannel.
+[14:22:36.572] Dev0[1,1]==> Ch state changed: RUN->PAUSED.
+[14:22:36.615] Dev0[1,1]==> Ch state changed: PAUSED->RUN.
+[14:22:37.295] Dev0[1,1]==> Func: PauseChannel.
+[14:22:37.333] Dev0[1,1]==> Ch state changed: RUN->PAUSED.
+[14:22:37.380] Dev0[1,1]==> Ch state changed: PAUSED->RUN.
+[14:22:37.797] Dev0[1,1]==> Func: PauseChannel.
+[14:22:37.844] Dev0[1,1]==> Ch state changed: RUN->PAUSED.
+[14:22:37.875] Dev0[1,1]==> Ch state changed: PAUSED->RUN.
+[14:22:38.244] Dev0[1,1]==> Func: PauseChannel.
+[14:22:38.313] Dev0[1,1]==> Ch state changed: RUN->PAUSED.
+[14:22:38.345] Dev0[1,1]==> Ch state changed: PAUSED->RUN.
+[14:22:38.661] Dev0[1,1]==> Func: PauseChannel.
+[14:22:38.699] Dev0[1,1]==> Ch state changed: RUN->PAUSED.
+[14:22:38.730] Dev0[1,1]==> Ch state changed: PAUSED->RUN.
+[14:22:38.946] Dev0[1,1]==> Func: PauseChannel.
+[14:22:38.993] Dev0[1,1]==> Ch state changed: RUN->PAUSED.
+[14:22:39.015] Dev0[1,1]==> Ch state changed: PAUSED->RUN.
+[14:22:39.176] Dev0[1,1]==> Func: PauseChannel.
+[14:22:39.215] Dev0[1,1]==> Ch state changed: RUN->PAUSED.
+[14:22:39.262] Dev0[1,1]==> Ch state changed: PAUSED->RUN.
+[14:22:39.447] Dev0[1,1]==> Func: PauseChannel.
+[14:22:39.500] Dev0[1,1]==> Ch state changed: RUN->PAUSED.
+[14:22:39.532] Dev0[1,1]==> Ch state changed: PAUSED->RUN.
+[14:22:39.717] Dev0[1,1]==> Func: PauseChannel.
+[14:22:39.748] Dev0[1,1]==> Ch state changed: RUN->PAUSED.
+[14:22:39.779] Dev0[1,1]==> Ch state changed: PAUSED->RUN.
+[14:22:44.412] Dev0[1,0]==> Appending data end. (ADDR = 0x01)
+[14:22:59.612] Dev0[1,1]==> Func: PauseChannel.
+[14:22:59.627] Dev0[1,1]==> Ch state changed: RUN->PAUSED.
+[14:23:01.214] Dev0[1,1]==> Func: RestartChannel.
+[14:23:01.214] Dev0[1,1]==> Func: InitSafetyAlarm
+[14:23:01.230] Dev0[1,1]==> Init safety alarm done.
+[14:23:01.468] Dev0[1,1]==> Ch state changed: PAUSED->RUN.
+[14:23:01.869] Dev0[1,1]==> Ch state changed: RUN->SAFETY.
+[14:23:01.869] Dev0[1,1]==> Measuring stopped. (SafetyMinVoltage)
+[14:23:06.258] Dev0[1,1]==> Func: InitSafetyAlarm
+[14:23:06.265] Dev0[1,1]==> Init safety alarm done.
+[14:23:06.265] Dev0[1,1]==> Func: RestartChannel.
+[14:23:06.265] Dev0[1,1]==> Func: InitSafetyAlarm
+[14:23:06.296] Dev0[1,1]==> Init safety alarm done.
+[14:23:06.343] Dev0[1,1]==> Ch state changed: SAFETY->IDLE.
+[14:23:07.568] Dev0[1,1]==> Ch state changed: IDLE->RUN.
+[14:40:16.259] Dev0==> Start disconnecting.
+[14:40:16.259] Dev0==> Func: stopAllThreads
+[14:40:16.259] Dev0==> Parsing trd stopped.
+[14:40:16.259] Dev0==> Rcv trd stopped.
+[14:40:16.259] Dev0==> Split trd stopped.
+[14:40:16.259] Dev0==> Send trd stopped.
+[14:40:16.259] Dev0==> All trd stopped.
+[14:40:16.259] Dev0[1,1]==> Ch trd stopped.
+[14:40:16.259] Dev0[1,1]==> Ch state changed: RUN->DISCONNECTED.
+[14:40:16.259] Dev0[1,2]==> Ch state changed: IDLE->DISCONNECTED.
+[14:40:16.259] Dev0[1,3]==> Ch state changed: IDLE->DISCONNECTED.
+[14:40:16.259] Dev0[1,4]==> Ch state changed: IDLE->DISCONNECTED.
+[14:40:16.259] Dev0[1,5]==> Ch state changed: IDLE->DISCONNECTED.
+[14:40:16.259] Dev0[1,6]==> Ch state changed: IDLE->DISCONNECTED.
+[14:40:16.259] Dev0[1,7]==> Ch state changed: IDLE->DISCONNECTED.
+[14:40:16.259] Dev0[1,8]==> Ch state changed: IDLE->DISCONNECTED.
+[14:40:16.259] Dev0==> Socket disconnecting.
+[14:40:16.259] Dev0==> Socket disconnect done.
+[14:40:16.259] Dev0==> Func: stopAllThreads
+[14:40:16.259] Dev0==> All trd stopped.
+[14:40:16.274] Software exit.
+
+[14:40:19.449] Software start.
+[14:43:31.443] Software start.
+[14:44:05.990] Dev0==> Start disconnecting.
+[14:44:05.990] Dev0==> Func: stopAllThreads
+[14:44:05.990] Dev0==> All trd stopped.
+[14:48:38.027] Software start.
+[14:49:42.875] Dev0==> Start connecting.
+[14:49:42.875] Dev0==> Socket connect to 192.168.124.2:7000.
+[14:49:42.875] Dev0==> Socket connect done.
+[14:49:42.875] Dev0==> Req new port.
+[14:49:42.891] Dev0==> 31076 port received.
+[14:49:42.891] Dev0==> Socket connect to 192.168.124.2:31076.
+[14:49:43.918] Dev0==> Socket connect done.
+[14:49:43.918] Dev0==> Func: startAllThreads
+[14:49:43.918] Dev0==> Rcv trd start.
+[14:49:43.918] Dev0==> Send trd start.
+[14:49:43.934] Dev0==> Schedule trd start.
+[14:49:43.934] Dev0==> Split trd start.
+[14:49:43.934] Dev0==> Parsing trd start.
+[14:49:43.934] Dev0==> All trd started.
+[14:49:43.934] Dev0==> Connect done.
+[14:49:43.934] Dev0==> Init com start.
+[14:49:44.043] Dev0==> Step1: Register check & clear
+[14:49:44.043] Dev0==> Step2: Get board info.
+[14:49:44.043] Dev0==> Step3: Search slave boards.
+[14:49:44.043] Dev0==> Detected channels: 64
+[14:49:44.043] Dev0[1,1]==> Ch state changed: DISCONNECTED->RUN.
+[14:49:44.043] Dev0[1,2]==> Ch state changed: DISCONNECTED->IDLE.
+[14:49:44.043] Dev0[1,3]==> Ch state changed: DISCONNECTED->IDLE.
+[14:49:44.043] Dev0[1,4]==> Ch state changed: DISCONNECTED->IDLE.
+[14:49:44.043] Dev0[1,5]==> Ch state changed: DISCONNECTED->IDLE.
+[14:49:44.043] Dev0[1,6]==> Ch state changed: DISCONNECTED->IDLE.
+[14:49:44.043] Dev0[1,7]==> Ch state changed: DISCONNECTED->IDLE.
+[14:49:44.043] Dev0[1,8]==> Ch state changed: DISCONNECTED->IDLE.
+[14:49:44.059] Dev0==> Init com done.
+[14:49:44.059] Dev0==> Func: SetTransmissionControl
+[14:49:44.090] Dev0[1,1]==> Appending data detected.
+[14:49:44.106] Dev0[1,1]==> Ch trd start.
+[14:50:09.917] Dev0[1,0]==> Appending data end. (ADDR = 0x01)
+[14:54:12.463] Software start.
+[14:54:15.515] Dev0==> Start connecting.
+[14:54:15.531] Dev0==> Socket connect to 192.168.124.2:7000.
+[14:54:15.531] Dev0==> Socket connect done.
+[14:54:15.531] Dev0==> Req new port.
+[14:54:15.531] Dev0==> 41597 port received.
+[14:54:15.531] Dev0==> Socket connect to 192.168.124.2:41597.
+[14:54:16.559] Dev0==> Socket connect done.
+[14:54:16.559] Dev0==> Func: startAllThreads
+[14:54:16.559] Dev0==> Rcv trd start.
+[14:54:16.559] Dev0==> Split trd start.
+[14:54:16.559] Dev0==> Send trd start.
+[14:54:16.559] Dev0==> Parsing trd start.
+[14:54:16.559] Dev0==> Schedule trd start.
+[14:54:16.559] Dev0==> All trd started.
+[14:54:16.559] Dev0==> Connect done.
+[14:54:16.574] Dev0==> Init com start.
+[14:54:16.684] Dev0==> Step1: Register check & clear
+[14:54:16.684] Dev0==> Step2: Get board info.
+[14:54:16.684] Dev0==> Step3: Search slave boards.
+[14:54:16.684] Dev0==> Detected channels: 64
+[14:54:16.684] Dev0[1,1]==> Ch state changed: DISCONNECTED->RUN.
+[14:54:16.684] Dev0[1,2]==> Ch state changed: DISCONNECTED->IDLE.
+[14:54:16.684] Dev0[1,3]==> Ch state changed: DISCONNECTED->IDLE.
+[14:54:16.684] Dev0[1,4]==> Ch state changed: DISCONNECTED->IDLE.
+[14:54:16.684] Dev0[1,5]==> Ch state changed: DISCONNECTED->IDLE.
+[14:54:16.684] Dev0[1,6]==> Ch state changed: DISCONNECTED->IDLE.
+[14:54:16.684] Dev0[1,7]==> Ch state changed: DISCONNECTED->IDLE.
+[14:54:16.684] Dev0[1,8]==> Ch state changed: DISCONNECTED->IDLE.
+[14:54:16.699] Dev0==> Init com done.
+[14:54:16.699] Dev0==> Func: SetTransmissionControl
+[14:54:16.777] Dev0[1,1]==> Appending data detected.
+[14:54:16.777] Dev0[1,1]==> Ch trd start.
+[14:54:16.777] Dev0[1,1]==> Ch trd start.
+[14:54:18.212] Dev0[1,0]==> Appending data end. (ADDR = 0x01)
+[15:11:03.667] Software start.
+[15:11:13.197] Dev0==> Start disconnecting.
+[15:11:13.197] Dev0==> Func: stopAllThreads
+[15:11:13.197] Dev0==> All trd stopped.
+[15:11:13.197] Software exit.
+
+[15:14:41.676] Software start.
+[15:16:53.376] Software start.
+[15:18:24.003] Software start.
+[15:18:31.811] Dev0==> Start connecting.
+[15:18:31.811] Dev0==> Socket connect to 192.168.124.2:7000.
+[15:18:31.811] Dev0==> Socket connect done.
+[15:18:31.811] Dev0==> Req new port.
+[15:18:31.826] Dev0==> 56175 port received.
+[15:18:31.826] Dev0==> Socket connect to 192.168.124.2:56175.
+[15:18:32.838] Dev0==> Socket connect done.
+[15:18:32.838] Dev0==> Func: startAllThreads
+[15:18:32.838] Dev0==> Rcv trd start.
+[15:18:32.838] Dev0==> Split trd start.
+[15:18:32.838] Dev0==> Send trd start.
+[15:18:32.838] Dev0==> Schedule trd start.
+[15:18:32.854] Dev0==> Parsing trd start.
+[15:18:32.854] Dev0==> All trd started.
+[15:18:32.854] Dev0==> Connect done.
+[15:18:32.854] Dev0==> Init com start.
+[15:18:32.963] Dev0==> Step1: Register check & clear
+[15:18:32.963] Dev0==> Step2: Get board info.
+[15:18:32.963] Dev0==> Step3: Search slave boards.
+[15:18:32.963] Dev0==> Detected channels: 64
+[15:18:32.963] Dev0[1,1]==> Ch state changed: DISCONNECTED->RUN.
+[15:18:32.963] Dev0[1,2]==> Ch state changed: DISCONNECTED->IDLE.
+[15:18:32.963] Dev0[1,3]==> Ch state changed: DISCONNECTED->IDLE.
+[15:18:32.963] Dev0[1,4]==> Ch state changed: DISCONNECTED->IDLE.
+[15:18:32.963] Dev0[1,5]==> Ch state changed: DISCONNECTED->IDLE.
+[15:18:32.963] Dev0[1,6]==> Ch state changed: DISCONNECTED->IDLE.
+[15:18:32.963] Dev0[1,7]==> Ch state changed: DISCONNECTED->IDLE.
+[15:18:32.963] Dev0[1,8]==> Ch state changed: DISCONNECTED->IDLE.
+[15:18:32.979] Dev0==> Init com done.
+[15:18:32.979] Dev0==> Func: SetTransmissionControl
+[15:18:33.010] Dev0[1,1]==> Appending data detected.
+[15:18:33.010] Dev0[1,1]==> Ch trd start.
+[15:20:41.673] Dev0==> Start disconnecting.
+[15:20:41.673] Dev0==> Func: stopAllThreads
+[15:20:41.673] Dev0==> Send trd stopped.
+[15:20:41.673] Dev0==> Parsing trd stopped.
+[15:20:41.673] Dev0==> Rcv trd stopped.
+[15:20:41.673] Dev0==> Split trd stopped.
+[15:20:41.705] Dev0==> All trd stopped.
+[15:20:41.705] Dev0[1,1]==> Ch trd stopped.
+[15:20:41.705] Dev0[1,1]==> Ch state changed: RUN->DISCONNECTED.
+[15:20:41.705] Dev0[1,2]==> Ch state changed: IDLE->DISCONNECTED.
+[15:20:41.705] Dev0[1,3]==> Ch state changed: IDLE->DISCONNECTED.
+[15:20:41.705] Dev0[1,4]==> Ch state changed: IDLE->DISCONNECTED.
+[15:20:41.705] Dev0[1,5]==> Ch state changed: IDLE->DISCONNECTED.
+[15:20:41.705] Dev0[1,6]==> Ch state changed: IDLE->DISCONNECTED.
+[15:20:41.705] Dev0[1,7]==> Ch state changed: IDLE->DISCONNECTED.
+[15:20:41.705] Dev0[1,8]==> Ch state changed: IDLE->DISCONNECTED.
+[15:20:41.705] Dev0==> Socket disconnecting.
+[15:20:41.705] Dev0==> Socket disconnect done.
+[15:20:41.705] Dev0==> Func: stopAllThreads
+[15:20:41.705] Dev0==> All trd stopped.
+[15:20:41.705] Software exit.
+
+[15:22:26.835] Software start.
+[15:22:35.779] Dev0==> Start disconnecting.
+[15:22:35.779] Dev0==> Func: stopAllThreads
+[15:22:35.779] Dev0==> All trd stopped.
+[15:22:35.794] Software exit.
+
+[15:28:44.070] Software start.
+[16:16:33.694] Software start.
+[16:16:35.617] Dev0==> Start connecting.
+[16:16:35.617] Dev0==> Socket connect to 192.168.124.2:7000.
+[16:16:35.617] Dev0==> Socket connect done.
+[16:16:35.617] Dev0==> Req new port.
+[16:16:35.632] Dev0==> 1227 port received.
+[16:16:35.632] Dev0==> Socket connect to 192.168.124.2:1227.
+[16:16:36.645] Dev0==> Socket connect done.
+[16:16:36.645] Dev0==> Func: startAllThreads
+[16:16:49.386] Dev0==> Rcv trd start.
+[16:16:50.043] Dev0==> Split trd start.
+[16:16:51.776] Dev0==> Send trd start.
+[16:16:51.792] Dev0==> Parsing trd start.
+[16:17:20.889] Dev0==> Schedule trd start.
+[16:18:03.028] Dev0==> Connect done.
+[16:18:03.044] Dev0==> Init com start.
+[16:18:03.153] Dev0==> Step1: Register check & clear
+[16:18:03.153] Dev0==> Step2: Get board info.
+[16:18:03.153] Dev0==> Step3: Search slave boards.
+[16:18:03.153] Dev0==> Detected channels: 64
+[16:18:03.153] Dev0[1,1]==> Ch state changed: DISCONNECTED->RUN.
+[16:18:03.153] Dev0[1,2]==> Ch state changed: DISCONNECTED->IDLE.
+[16:18:03.153] Dev0[1,3]==> Ch state changed: DISCONNECTED->IDLE.
+[16:18:03.153] Dev0[1,4]==> Ch state changed: DISCONNECTED->IDLE.
+[16:18:03.153] Dev0[1,5]==> Ch state changed: DISCONNECTED->IDLE.
+[16:18:03.153] Dev0[1,6]==> Ch state changed: DISCONNECTED->IDLE.
+[16:18:03.153] Dev0[1,7]==> Ch state changed: DISCONNECTED->IDLE.
+[16:18:03.153] Dev0[1,8]==> Ch state changed: DISCONNECTED->IDLE.
+[16:18:03.216] Dev0==> Init com done.
+[16:18:03.216] Dev0==> Func: SetTransmissionControl
+[16:18:03.247] Dev0[1,1]==> Appending data detected.
+[16:18:03.247] Dev0[1,1]==> Ch trd start.
+[16:18:49.913] Dev0==> Start disconnecting.
+[16:18:49.913] Dev0==> Func: stopAllThreads
+[16:18:49.913] Dev0==> Rcv trd stopped.
+[16:18:49.913] Dev0==> Parsing trd stopped.
+[16:18:49.913] Dev0==> Split trd stopped.
+[16:18:49.913] Dev0==> Send trd stopped.
+[16:18:49.913] Dev0==> All trd stopped.
+[16:18:49.913] Dev0[1,1]==> Ch trd stopped.
+[16:18:49.913] Dev0[1,1]==> Ch state changed: RUN->DISCONNECTED.
+[16:18:49.913] Dev0[1,2]==> Ch state changed: IDLE->DISCONNECTED.
+[16:18:49.913] Dev0[1,3]==> Ch state changed: IDLE->DISCONNECTED.
+[16:18:49.913] Dev0[1,4]==> Ch state changed: IDLE->DISCONNECTED.
+[16:18:49.913] Dev0[1,5]==> Ch state changed: IDLE->DISCONNECTED.
+[16:18:49.913] Dev0[1,6]==> Ch state changed: IDLE->DISCONNECTED.
+[16:18:49.913] Dev0[1,7]==> Ch state changed: IDLE->DISCONNECTED.
+[16:18:49.913] Dev0[1,8]==> Ch state changed: IDLE->DISCONNECTED.
+[16:18:49.913] Dev0==> Socket disconnecting.
+[16:18:49.928] Dev0==> Socket disconnect done.
+[16:18:49.928] Dev0==> Func: stopAllThreads
+[16:18:49.928] Dev0==> All trd stopped.
+[16:18:49.928] Software exit.
+
+[16:18:58.243] Software start.
+[16:19:01.422] Dev0==> Start connecting.
+[16:19:01.422] Dev0==> Socket connect to 192.168.124.2:7000.
+[16:19:01.422] Dev0==> Socket connect done.
+[16:19:01.422] Dev0==> Req new port.
+[16:19:01.437] Dev0==> 15968 port received.
+[16:19:01.437] Dev0==> Socket connect to 192.168.124.2:15968.
+[16:19:02.452] Dev0==> Socket connect done.
+[16:19:02.452] Dev0==> Func: startAllThreads
+[16:19:04.077] Dev0==> Rcv trd start.
+[16:19:04.077] Dev0==> Send trd start.
+[16:19:04.077] Dev0==> Split trd start.
+[16:19:04.108] Dev0==> Schedule trd start.
+[16:19:04.124] Dev0==> Parsing trd start.
+[16:19:04.124] Dev0==> All trd started.
+[16:19:04.124] Dev0==> Connect done.
+[16:19:04.124] Dev0==> Init com start.
+[16:19:04.233] Dev0==> Step1: Register check & clear
+[16:19:04.233] Dev0==> Step2: Get board info.
+[16:19:04.233] Dev0==> Step3: Search slave boards.
+[16:19:04.233] Dev0==> Detected channels: 64
+[16:19:04.233] Dev0[1,1]==> Ch state changed: DISCONNECTED->RUN.
+[16:19:04.233] Dev0[1,2]==> Ch state changed: DISCONNECTED->IDLE.
+[16:19:04.233] Dev0[1,3]==> Ch state changed: DISCONNECTED->IDLE.
+[16:19:04.233] Dev0[1,4]==> Ch state changed: DISCONNECTED->IDLE.
+[16:19:04.233] Dev0[1,5]==> Ch state changed: DISCONNECTED->IDLE.
+[16:19:04.233] Dev0[1,6]==> Ch state changed: DISCONNECTED->IDLE.
+[16:19:04.233] Dev0[1,7]==> Ch state changed: DISCONNECTED->IDLE.
+[16:19:04.233] Dev0[1,8]==> Ch state changed: DISCONNECTED->IDLE.
+[16:19:04.249] Dev0==> Init com done.
+[16:19:04.249] Dev0==> Func: SetTransmissionControl
+[16:19:04.280] Dev0[1,1]==> Appending data detected.
+[16:19:04.280] Dev0[1,1]==> Ch trd start.
+[16:19:17.004] Dev0[1,1]==> Func: StopChannel.
+[16:19:23.017] Dev0[1,1]==> Stop channel failed. (Cause: No response)
+[16:19:23.017] Dev0[1,1]==> Ch state changed: RUN->ERROR.
+[16:19:23.017] Dev0[1,1]==> Ch state changed: ERROR->RUN.
+[16:19:34.009] Dev0[1,1]==> Func: StopChannel.
+[16:19:34.165] Dev0[1,1]==> Ch state changed: RUN->IDLE.
+[16:19:43.241] Dev0==> Start disconnecting.
+[16:19:43.241] Dev0==> Func: stopAllThreads
+[16:19:43.241] Dev0==> Parsing trd stopped.
+[16:19:43.241] Dev0==> Send trd stopped.
+[16:19:43.241] Dev0==> Rcv trd stopped.
+[16:19:43.241] Dev0==> Split trd stopped.
+[16:19:43.257] Dev0==> All trd stopped.
+[16:19:43.257] Dev0[1,1]==> Ch trd stopped.
+[16:19:43.257] Dev0[1,1]==> Ch state changed: IDLE->DISCONNECTED.
+[16:19:43.257] Dev0[1,2]==> Ch state changed: IDLE->DISCONNECTED.
+[16:19:43.257] Dev0[1,3]==> Ch state changed: IDLE->DISCONNECTED.
+[16:19:43.257] Dev0[1,4]==> Ch state changed: IDLE->DISCONNECTED.
+[16:19:43.257] Dev0[1,5]==> Ch state changed: IDLE->DISCONNECTED.
+[16:19:43.257] Dev0[1,6]==> Ch state changed: IDLE->DISCONNECTED.
+[16:19:43.257] Dev0[1,7]==> Ch state changed: IDLE->DISCONNECTED.
+[16:19:43.257] Dev0[1,8]==> Ch state changed: IDLE->DISCONNECTED.
+[16:19:43.257] Dev0==> Socket disconnecting.
+[16:19:43.257] Dev0==> Socket disconnect done.
+[16:19:43.257] Dev0==> Func: stopAllThreads
+[16:19:43.257] Dev0==> All trd stopped.
+[16:19:43.257] Software exit.
+
+[16:29:12.308] Software start.
+[16:29:13.799] Dev0==> Start connecting.
+[16:29:13.799] Dev0==> Socket connect to 192.168.124.2:7000.
+[16:29:13.799] Dev0==> Socket connect done.
+[16:29:13.799] Dev0==> Req new port.
+[16:29:13.815] Dev0==> 38562 port received.
+[16:29:13.815] Dev0==> Socket connect to 192.168.124.2:38562.
+[16:29:14.842] Dev0==> Socket connect done.
+[16:29:14.842] Dev0==> Func: startAllThreads
+[16:29:15.429] Dev0==> Parsing trd start.
+[16:29:20.668] Dev0==> Rcv trd start.
+[16:29:20.668] Dev0==> Split trd start.
+[16:29:21.754] Dev0==> Send trd start.
+[16:29:28.760] Dev0==> Schedule trd start.
+[16:30:33.256] Dev0==> Connect done.
+[16:30:42.952] Dev0==> Init com start.
+[16:30:43.233] Dev0==> Step1: Register check & clear
+[16:31:18.204] Dev0==> Get register no response. (0)
+[16:31:44.256] Dev0==> Get register no response. (1)
+[16:31:50.967] Dev0==> Step2: Get board info.
+[16:31:57.290] Dev0==> Step3: Search slave boards.
+[16:31:59.536] Dev0==> Detected channels: 64
+[16:31:59.536] Dev0[1,1]==> Ch state changed: DISCONNECTED->IDLE.
+[16:31:59.536] Dev0[1,2]==> Ch state changed: DISCONNECTED->IDLE.
+[16:31:59.536] Dev0[1,3]==> Ch state changed: DISCONNECTED->IDLE.
+[16:31:59.536] Dev0[1,4]==> Ch state changed: DISCONNECTED->IDLE.
+[16:31:59.536] Dev0[1,5]==> Ch state changed: DISCONNECTED->IDLE.
+[16:31:59.536] Dev0[1,6]==> Ch state changed: DISCONNECTED->IDLE.
+[16:31:59.536] Dev0[1,7]==> Ch state changed: DISCONNECTED->IDLE.
+[16:31:59.536] Dev0[1,8]==> Ch state changed: DISCONNECTED->IDLE.
+[16:31:59.536] Dev0==> Init com done.
+[16:31:59.536] Dev0==> Func: SetTransmissionControl
+[16:32:00.389] Dev0[1,1]==> Appending data detected.
+[16:32:00.389] Dev0[1,1]==> Ch trd start.
+[16:32:00.405] Dev0[1,1]==> Ch state changed: IDLE->RUN.
+[16:32:32.204] Software start.
+[16:32:33.279] Dev0==> Start connecting.
+[16:32:33.279] Dev0==> Socket connect to 192.168.124.2:7000.
+[16:32:33.279] Dev0==> Socket connect done.
+[16:32:33.279] Dev0==> Req new port.
+[16:32:33.295] Dev0==> 41439 port received.
+[16:32:33.295] Dev0==> Socket connect to 192.168.124.2:41439.
+[16:32:34.323] Dev0==> Socket connect done.
+[16:32:34.323] Dev0==> Func: startAllThreads
+[16:32:36.012] Dev0==> Rcv trd start.
+[16:32:38.626] Dev0==> Schedule trd start.
+[16:32:40.303] Dev0==> Send trd start.
+[16:32:41.933] Dev0==> Split trd start.
+[16:32:46.596] Dev0==> Parsing trd start.
+[16:32:51.720] Dev0==> Connect done.
+[16:32:51.720] Dev0==> Init com start.
+[16:32:51.845] Dev0==> Step1: Register check & clear
+[16:32:51.845] Dev0==> Step2: Get board info.
+[16:32:51.845] Dev0==> Step3: Search slave boards.
+[16:32:51.845] Dev0==> Detected channels: 64
+[16:32:51.845] Dev0[1,1]==> Ch state changed: DISCONNECTED->IDLE.
+[16:32:51.845] Dev0[1,2]==> Ch state changed: DISCONNECTED->IDLE.
+[16:32:51.845] Dev0[1,3]==> Ch state changed: DISCONNECTED->IDLE.
+[16:32:51.845] Dev0[1,4]==> Ch state changed: DISCONNECTED->IDLE.
+[16:32:51.845] Dev0[1,5]==> Ch state changed: DISCONNECTED->IDLE.
+[16:32:51.845] Dev0[1,6]==> Ch state changed: DISCONNECTED->IDLE.
+[16:32:51.845] Dev0[1,7]==> Ch state changed: DISCONNECTED->IDLE.
+[16:32:51.845] Dev0[1,8]==> Ch state changed: DISCONNECTED->IDLE.
+[16:32:51.861] Dev0==> Init com done.
+[16:32:51.861] Dev0==> Func: SetTransmissionControl
+[16:32:51.892] Dev0[1,1]==> Appending data detected.
+[16:32:51.892] Dev0[1,1]==> Ch trd start.
+[16:32:51.908] Dev0[1,1]==> Ch state changed: IDLE->RUN.
+[17:55:17.265] Software start.
+[17:55:20.393] Dev0==> Start connecting.
+[17:55:20.393] Dev0==> Socket connect to 192.168.124.2:7000.
+[17:55:20.393] Dev0==> Socket connect done.
+[17:55:20.393] Dev0==> Req new port.
+[17:55:20.409] Dev0==> 28094 port received.
+[17:55:20.409] Dev0==> Socket connect to 192.168.124.2:28094.
+[17:55:21.433] Dev0==> Socket connect done.
+[17:55:21.433] Dev0==> Func: startAllThreads
+[17:55:21.433] Dev0==> Split trd start.
+[17:55:21.433] Dev0==> Rcv trd start.
+[17:55:21.433] Dev0==> Send trd start.
+[17:55:21.464] Dev0==> Parsing trd start.
+[17:55:21.464] Dev0==> Schedule trd start.
+[17:55:21.464] Dev0==> All trd started.
+[17:55:21.464] Dev0==> Connect done.
+[17:55:21.464] Dev0==> Init com start.
+[17:55:21.573] Dev0==> Step1: Register check & clear
+[17:55:21.573] Dev0==> Step2: Get board info.
+[17:55:21.573] Dev0==> Step3: Search slave boards.
+[17:55:21.573] Dev0==> Detected channels: 64
+[17:55:21.573] Dev0[1,1]==> Ch state changed: DISCONNECTED->IDLE.
+[17:55:21.573] Dev0[1,2]==> Ch state changed: DISCONNECTED->IDLE.
+[17:55:21.573] Dev0[1,3]==> Ch state changed: DISCONNECTED->IDLE.
+[17:55:21.573] Dev0[1,4]==> Ch state changed: DISCONNECTED->IDLE.
+[17:55:21.573] Dev0[1,5]==> Ch state changed: DISCONNECTED->IDLE.
+[17:55:21.573] Dev0[1,6]==> Ch state changed: DISCONNECTED->IDLE.
+[17:55:21.573] Dev0[1,7]==> Ch state changed: DISCONNECTED->IDLE.
+[17:55:21.573] Dev0[1,8]==> Ch state changed: DISCONNECTED->IDLE.
+[17:55:21.589] Dev0==> Init com done.
+[17:55:21.589] Dev0==> Func: SetTransmissionControl
+[17:55:21.620] Dev0[1,1]==> Appending data detected.
+[17:55:21.620] Dev0[1,1]==> Ch trd start.
+[17:55:21.651] Dev0[1,1]==> Ch state changed: IDLE->RUN.
+[17:56:14.564] Dev0[1,0]==> Appending data end. (ADDR = 0x01)
+[17:56:34.149] Dev0==> Start disconnecting.
+[17:56:34.149] Dev0==> Func: stopAllThreads
+[17:56:34.149] Dev0==> Rcv trd stopped.
+[17:56:34.149] Dev0==> Split trd stopped.
+[17:56:34.149] Dev0==> Send trd stopped.
+[17:56:34.149] Dev0==> Parsing trd stopped.
+[17:56:34.165] Dev0==> All trd stopped.
+[17:56:34.165] Dev0[1,1]==> Ch trd stopped.
+[17:56:34.165] Dev0[1,1]==> Ch state changed: RUN->DISCONNECTED.
+[17:56:34.165] Dev0[1,2]==> Ch state changed: IDLE->DISCONNECTED.
+[17:56:34.165] Dev0[1,3]==> Ch state changed: IDLE->DISCONNECTED.
+[17:56:34.165] Dev0[1,4]==> Ch state changed: IDLE->DISCONNECTED.
+[17:56:34.165] Dev0[1,5]==> Ch state changed: IDLE->DISCONNECTED.
+[17:56:34.165] Dev0[1,6]==> Ch state changed: IDLE->DISCONNECTED.
+[17:56:34.165] Dev0[1,7]==> Ch state changed: IDLE->DISCONNECTED.
+[17:56:34.165] Dev0[1,8]==> Ch state changed: IDLE->DISCONNECTED.
+[17:56:34.165] Dev0==> Socket disconnecting.
+[17:56:34.165] Dev0==> Socket disconnect done.
+[17:56:34.165] Dev0==> Func: stopAllThreads
+[17:56:34.165] Dev0==> All trd stopped.
+[17:56:34.165] Software exit.
+
+[17:56:37.854] Software start.
+[17:56:40.789] Dev0==> Start connecting.
+[17:56:40.789] Dev0==> Socket connect to 192.168.124.2:7000.
+[17:56:40.789] Dev0==> Socket connect done.
+[17:56:40.789] Dev0==> Req new port.
+[17:56:40.789] Dev0==> 42957 port received.
+[17:56:40.789] Dev0==> Socket connect to 192.168.124.2:42957.
+[17:56:41.805] Dev0==> Socket connect done.
+[17:56:41.805] Dev0==> Func: startAllThreads
+[17:56:41.805] Dev0==> Rcv trd start.
+[17:56:41.805] Dev0==> Split trd start.
+[17:56:41.805] Dev0==> Send trd start.
+[17:56:41.805] Dev0==> Schedule trd start.
+[17:56:41.805] Dev0==> Parsing trd start.
+[17:56:41.805] Dev0==> All trd started.
+[17:56:41.805] Dev0==> Connect done.
+[17:56:41.805] Dev0==> Init com start.
+[17:56:41.930] Dev0==> Step1: Register check & clear
+[17:56:53.773] Dev0==> Get register no response. (0)
+[17:56:53.773] Dev0==> Step2: Get board info.
+[17:56:53.773] Dev0==> Step3: Search slave boards.
+[17:56:53.789] Dev0==> Detected channels: 64
+[17:56:53.789] Dev0[1,1]==> Ch state changed: DISCONNECTED->IDLE.
+[17:56:53.789] Dev0[1,2]==> Ch state changed: DISCONNECTED->IDLE.
+[17:56:53.789] Dev0[1,3]==> Ch state changed: DISCONNECTED->IDLE.
+[17:56:53.789] Dev0[1,4]==> Ch state changed: DISCONNECTED->IDLE.
+[17:56:53.789] Dev0[1,5]==> Ch state changed: DISCONNECTED->IDLE.
+[17:56:53.789] Dev0[1,6]==> Ch state changed: DISCONNECTED->IDLE.
+[17:56:53.789] Dev0[1,7]==> Ch state changed: DISCONNECTED->IDLE.
+[17:56:53.789] Dev0[1,8]==> Ch state changed: DISCONNECTED->IDLE.
+[17:56:53.805] Dev0==> Init com done.
+[17:56:53.805] Dev0==> Func: SetTransmissionControl
+[17:57:05.195] Dev0==> Func: SetTransmissionControl
+[17:57:25.487] Dev0==> Func: SetTransmissionControl
+[17:57:39.363] Dev0[0,0]==> Func: GetRegister
+[17:57:39.363] Dev0==> Get reg done. (Res: 0x0000 = NoError)
+[17:57:39.363] Dev0[1,1]==> Func: InitSafetyAlarm
+[17:57:39.379] Dev0[1,1]==> Init safety alarm done.
+[17:57:39.379] Dev0[1,1]==> Ch state changed: IDLE->SENDING.
+[17:57:39.395] Dev0[1,1]==> Send seq start. (Name: CoinCell, Packets: 1 EA)
+[17:57:39.395] Dev0[1,1]==> Send rcp[0]. (ErrCount = 0)
+[17:57:39.707] Dev0[1,1]==> Send rcp[0] done.
+[17:57:39.707] Dev0[1,1]==> Send seq done.
+[17:57:39.734] Dev0[1,1]==> Ch state changed: SENDING->READY.
+[17:57:39.734] Dev0[1,1]==> Func: StartChannel
+[17:57:39.984] Dev0[1,1]==> Ch state changed: READY->IDLE.
+[17:57:40.172] Dev0[1,1]==> Ch trd start.
+[17:57:41.047] Dev0[1,1]==> Ch state changed: IDLE->RUN.

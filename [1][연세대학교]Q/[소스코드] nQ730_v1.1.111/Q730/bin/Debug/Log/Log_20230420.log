@@ -1,0 +1,407 @@
+[10:17:58.208] Software start.
+[10:18:00.201] Dev0==> Start connecting.
+[10:18:00.202] Dev0==> Socket connect to 192.168.124.2:7000.
+[10:18:00.205] Dev0==> Socket connect done.
+[10:18:00.205] Dev0==> Req new port.
+[10:18:00.222] Dev0==> 20673 port received.
+[10:18:00.222] Dev0==> Socket connect to 192.168.124.2:20673.
+[10:18:01.246] Dev0==> Socket connect done.
+[10:18:01.247] Dev0==> Func: startAllThreads
+[10:18:01.249] Dev0==> Rcv trd start.
+[10:18:01.250] Dev0==> Split trd start.
+[10:18:01.254] Dev0==> Schedule trd start.
+[10:18:01.259] Dev0==> Send trd start.
+[10:18:01.260] Dev0==> Parsing trd start.
+[10:18:01.260] Dev0==> All trd started.
+[10:18:01.260] Dev0==> Connect done.
+[10:18:01.262] Dev0==> Init com start.
+[10:18:01.373] Dev0==> Step1: Register check & clear
+[10:18:01.379] Dev0==> Step2: Get board info.
+[10:18:01.380] Dev0==> Step3: Search slave boards.
+[10:18:01.382] Dev0==> Detected channels: 64
+[10:18:01.382] Dev0[1,1]==> Ch state changed: DISCONNECTED->RUN.
+[10:18:01.382] Dev0[1,2]==> Ch state changed: DISCONNECTED->RUN.
+[10:18:01.382] Dev0[1,3]==> Ch state changed: DISCONNECTED->RUN.
+[10:18:01.382] Dev0[1,4]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.383] Dev0[1,5]==> Ch state changed: DISCONNECTED->RUN.
+[10:18:01.383] Dev0[1,6]==> Ch state changed: DISCONNECTED->RUN.
+[10:18:01.383] Dev0[1,7]==> Ch state changed: DISCONNECTED->RUN.
+[10:18:01.383] Dev0[1,8]==> Ch state changed: DISCONNECTED->RUN.
+[10:18:01.383] Dev0[2,1]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.383] Dev0[2,2]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.383] Dev0[2,3]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.383] Dev0[2,4]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.383] Dev0[2,5]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.383] Dev0[2,6]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.383] Dev0[2,7]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.383] Dev0[2,8]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.383] Dev0[3,1]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.383] Dev0[3,2]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.383] Dev0[3,3]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.383] Dev0[3,4]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.383] Dev0[3,5]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.383] Dev0[3,6]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.383] Dev0[3,7]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.383] Dev0[3,8]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.383] Dev0[4,1]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.383] Dev0[4,2]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.383] Dev0[4,3]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.383] Dev0[4,4]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.383] Dev0[4,5]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.383] Dev0[4,6]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.383] Dev0[4,7]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.383] Dev0[4,8]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.383] Dev0[5,1]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.383] Dev0[5,2]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.383] Dev0[5,3]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.383] Dev0[5,4]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.383] Dev0[5,5]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.383] Dev0[5,6]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.383] Dev0[5,7]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.383] Dev0[5,8]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.383] Dev0[6,1]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.383] Dev0[6,2]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.383] Dev0[6,3]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.384] Dev0[6,4]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.384] Dev0[6,5]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.384] Dev0[6,6]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.384] Dev0[6,7]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.384] Dev0[6,8]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.384] Dev0[7,1]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.384] Dev0[7,2]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.384] Dev0[7,3]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.384] Dev0[7,4]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.384] Dev0[7,5]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.384] Dev0[7,6]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.384] Dev0[7,7]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.384] Dev0[7,8]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.384] Dev0[8,1]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.384] Dev0[8,2]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.384] Dev0[8,3]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.384] Dev0[8,4]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.384] Dev0[8,5]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.384] Dev0[8,6]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.384] Dev0[8,7]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.384] Dev0[8,8]==> Ch state changed: DISCONNECTED->IDLE.
+[10:18:01.384] Dev0==> Init com done.
+[10:18:01.384] Dev0==> Func: SetTransmissionControl
+[10:18:01.416] Dev0[1,3]==> Ch trd start.
+[10:18:01.419] Dev0[1,8]==> Ch trd start.
+[10:18:01.423] Dev0[1,1]==> Ch trd start.
+[10:18:01.455] Dev0[1,2]==> Ch trd start.
+[10:18:01.455] Dev0[1,2]==> Ch trd start.
+[10:18:01.455] Dev0[1,5]==> Ch trd start.
+[10:18:01.455] Dev0[1,7]==> Ch trd start.
+[10:18:01.455] Dev0[1,7]==> Ch trd start.
+[10:18:01.455] Dev0[1,4]==> Ch trd start.
+[10:18:01.461] Dev0[1,6]==> Ch trd start.
+[10:18:01.493] Dev0[7,1]==> Appending data detected.
+[10:18:01.497] Dev0[7,5]==> Ch trd start.
+[10:18:01.532] Dev0[7,6]==> Ch trd start.
+[10:18:01.532] Dev0[7,8]==> Ch trd start.
+[10:18:01.532] Dev0[7,1]==> Ch trd start.
+[10:18:01.532] Dev0[7,3]==> Ch trd start.
+[10:18:01.532] Dev0[7,6]==> Ch trd start.
+[10:18:01.532] Dev0[7,2]==> Ch trd start.
+[10:18:01.532] Dev0[7,7]==> Ch trd start.
+[10:18:01.532] Dev0[7,4]==> Ch trd start.
+[10:18:01.580] Dev0[7,0]==> Appending data end. (ADDR = 0x07)
+[10:18:01.688] Dev0[3,3]==> Ch trd start.
+[10:18:01.699] Dev0[3,5]==> Ch trd start.
+[10:18:01.699] Dev0[3,4]==> Ch trd start.
+[10:18:01.699] Dev0[3,6]==> Ch trd start.
+[10:18:01.699] Dev0[3,7]==> Ch trd start.
+[10:18:01.717] Dev0[3,8]==> Ch trd start.
+[10:18:01.772] Dev0[3,1]==> Ch trd start.
+[10:18:01.817] Dev0[3,2]==> Ch trd start.
+[10:18:01.961] Dev0[5,8]==> Ch trd start.
+[10:18:02.007] Dev0[5,1]==> Ch trd start.
+[10:18:02.018] Dev0[5,2]==> Ch trd start.
+[10:18:02.055] Dev0[5,3]==> Ch trd start.
+[10:18:02.069] Dev0[5,4]==> Ch trd start.
+[10:18:02.103] Dev0[5,5]==> Ch trd start.
+[10:18:02.103] Dev0[5,7]==> Ch trd start.
+[10:18:02.103] Dev0[5,6]==> Ch trd start.
+[10:18:02.103] Dev0[5,7]==> Ch trd start.
+[10:18:02.103] Dev0[5,6]==> Ch trd start.
+[10:18:02.103] Dev0[5,5]==> Ch trd start.
+[10:18:02.320] Dev0[6,7]==> Ch trd start.
+[10:18:02.339] Dev0[6,8]==> Ch trd start.
+[10:18:02.354] Dev0[6,1]==> Ch trd start.
+[10:18:02.354] Dev0[6,3]==> Ch trd start.
+[10:18:02.354] Dev0[6,2]==> Ch trd start.
+[10:18:02.354] Dev0[6,4]==> Ch trd start.
+[10:18:02.376] Dev0[6,5]==> Ch trd start.
+[10:18:02.385] Dev0[6,6]==> Ch trd start.
+[10:18:12.847] Dev0[1,1]==> Func: StopChannel.
+[10:18:13.140] Dev0[1,1]==> Ch state changed: RUN->IDLE.
+[10:18:13.145] Dev0[1,2]==> Func: StopChannel.
+[10:18:13.852] Dev0[1,2]==> Ch state changed: RUN->IDLE.
+[10:18:13.853] Dev0[1,3]==> Func: StopChannel.
+[10:18:14.454] Dev0[1,3]==> Ch state changed: RUN->IDLE.
+[10:18:14.465] Dev0[1,3]==> Measuring stopped. (UserStop)
+[10:18:14.485] Dev0[1,4]==> Func: StopChannel.
+[10:18:14.584] Dev0[1,5]==> Func: StopChannel.
+[10:18:14.684] Dev0[1,5]==> Ch state changed: RUN->IDLE.
+[10:18:14.687] Dev0[1,6]==> Func: StopChannel.
+[10:18:14.800] Dev0[1,6]==> Ch state changed: RUN->IDLE.
+[10:18:14.801] Dev0[1,7]==> Func: StopChannel.
+[10:18:14.903] Dev0[1,7]==> Ch state changed: RUN->IDLE.
+[10:18:14.905] Dev0[1,8]==> Func: StopChannel.
+[10:18:17.689] Dev0==> Start disconnecting.
+[10:18:17.689] Dev0==> Func: stopAllThreads
+[10:18:17.690] Dev0==> Rcv trd stopped.
+[10:18:17.690] Dev0==> Split trd stopped.
+[10:18:17.691] Dev0==> Send trd stopped.
+[10:18:17.700] Dev0==> Parsing trd stopped.
+[10:18:17.700] Dev0==> All trd stopped.
+[10:18:17.701] Dev0[1,1]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.701] Dev0[1,2]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.701] Dev0[1,3]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.701] Dev0[1,4]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.701] Dev0[1,5]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.701] Dev0[1,6]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.701] Dev0[1,7]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.701] Dev0[1,8]==> Ch state changed: RUN->DISCONNECTED.
+[10:18:17.701] Dev0[2,1]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.701] Dev0[2,2]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.701] Dev0[2,3]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.701] Dev0[2,4]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.702] Dev0[2,5]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.702] Dev0[2,6]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.702] Dev0[2,7]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.702] Dev0[2,8]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.702] Dev0[3,1]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.702] Dev0[3,2]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.702] Dev0[3,3]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.702] Dev0[3,4]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.702] Dev0[3,5]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.702] Dev0[3,5]==> Ch trd stopped.
+[10:18:17.702] Dev0[3,2]==> Ch trd stopped.
+[10:18:17.702] Dev0[1,4]==> Ch trd stopped.
+[10:18:17.702] Dev0[3,1]==> Ch trd stopped.
+[10:18:17.702] Dev0[1,2]==> Ch trd stopped.
+[10:18:17.703] Dev0[1,7]==> Ch trd stopped.
+[10:18:17.704] Dev0[1,2]==> Ch trd stopped.
+[10:18:17.705] Dev0[1,7]==> Ch trd stopped.
+[10:18:17.705] Dev0[1,8]==> Ch trd stopped.
+[10:18:17.705] Dev0[3,4]==> Ch trd stopped.
+[10:18:17.702] Dev0[3,6]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.714] Dev0[3,7]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.714] Dev0[3,8]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.714] Dev0[4,1]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.705] Dev0[3,3]==> Ch trd stopped.
+[10:18:17.869] Dev0[3,6]==> Ch trd stopped.
+[10:18:17.869] Dev0[3,8]==> Ch trd stopped.
+[10:18:17.870] Dev0[3,7]==> Ch trd stopped.
+[10:18:17.870] Dev0[1,5]==> Ch trd stopped.
+[10:18:17.870] Dev0[1,1]==> Ch trd stopped.
+[10:18:17.870] Dev0[1,6]==> Ch trd stopped.
+[10:18:17.870] Dev0[1,3]==> Ch trd stopped.
+[10:18:17.714] Dev0[4,2]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.873] Dev0[4,3]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.873] Dev0[4,4]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.873] Dev0[4,5]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.873] Dev0[4,6]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.873] Dev0[4,7]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.873] Dev0[4,8]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.873] Dev0[5,1]==> Ch trd stopped.
+[10:18:17.873] Dev0[5,1]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.874] Dev0[5,2]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.878] Dev0[5,3]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.878] Dev0[5,4]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.878] Dev0[5,5]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.878] Dev0[5,6]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.878] Dev0[5,6]==> Ch trd stopped.
+[10:18:17.878] Dev0[5,7]==> Ch trd stopped.
+[10:18:17.878] Dev0[5,5]==> Ch trd stopped.
+[10:18:17.878] Dev0[5,7]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.879] Dev0[5,2]==> Ch trd stopped.
+[10:18:17.879] Dev0[5,8]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.879] Dev0[6,1]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.879] Dev0[6,1]==> Ch trd stopped.
+[10:18:17.879] Dev0[6,2]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.878] Dev0[5,7]==> Ch trd stopped.
+[10:18:17.879] Dev0[6,3]==> Ch trd stopped.
+[10:18:17.879] Dev0[6,3]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.879] Dev0[6,4]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.879] Dev0[6,5]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.879] Dev0[6,6]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.879] Dev0[6,7]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.879] Dev0[6,7]==> Ch trd stopped.
+[10:18:17.879] Dev0[6,6]==> Ch trd stopped.
+[10:18:17.879] Dev0[6,8]==> Ch trd stopped.
+[10:18:17.879] Dev0[6,8]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.879] Dev0[7,1]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.879] Dev0[7,2]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.879] Dev0[7,3]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.879] Dev0[7,3]==> Ch trd stopped.
+[10:18:17.879] Dev0[7,4]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.879] Dev0[7,5]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.879] Dev0[7,6]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.879] Dev0[7,7]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.879] Dev0[7,8]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.879] Dev0[8,1]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.879] Dev0[8,2]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.879] Dev0[8,3]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.879] Dev0[8,4]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.879] Dev0[8,5]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.879] Dev0[8,6]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.879] Dev0[8,7]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.879] Dev0[8,8]==> Ch state changed: IDLE->DISCONNECTED.
+[10:18:17.879] Dev0[5,4]==> Ch trd stopped.
+[10:18:17.879] Dev0[7,2]==> Ch trd stopped.
+[10:18:17.879] Dev0[5,3]==> Ch trd stopped.
+[10:18:17.879] Dev0[5,6]==> Ch trd stopped.
+[10:18:17.880] Dev0[5,8]==> Ch trd stopped.
+[10:18:17.881] Dev0[7,1]==> Ch trd stopped.
+[10:18:17.881] Dev0[7,4]==> Ch trd stopped.
+[10:18:17.881] Dev0[7,8]==> Ch trd stopped.
+[10:18:17.881] Dev0[5,5]==> Ch trd stopped.
+[10:18:17.881] Dev0[7,7]==> Ch trd stopped.
+[10:18:17.881] Dev0[6,5]==> Ch trd stopped.
+[10:18:17.881] Dev0[7,6]==> Ch trd stopped.
+[10:18:17.881] Dev0[7,6]==> Ch trd stopped.
+[10:18:17.881] Dev0[6,4]==> Ch trd stopped.
+[10:18:17.882] Dev0[7,5]==> Ch trd stopped.
+[10:18:17.882] Dev0[6,2]==> Ch trd stopped.
+[10:18:17.924] Dev0==> Socket disconnecting.
+[10:18:17.928] Dev0==> Socket disconnect done.
+[10:18:17.928] Dev0==> Func: stopAllThreads
+[10:18:17.928] Dev0==> All trd stopped.
+[10:18:17.932] Software exit.
+
+[10:20:23.536] Software start.
+[10:20:25.532] Dev0==> Start connecting.
+[10:20:25.534] Dev0==> Socket connect to 192.168.124.2:7000.
+[10:20:25.537] Dev0==> Socket connect done.
+[10:20:25.537] Dev0==> Req new port.
+[10:20:25.546] Dev0==> 12016 port received.
+[10:20:25.546] Dev0==> Socket connect to 192.168.124.2:12016.
+[10:20:26.570] Dev0==> Socket connect done.
+[10:20:26.570] Dev0==> Func: startAllThreads
+[10:20:26.572] Dev0==> Rcv trd start.
+[10:20:26.573] Dev0==> Split trd start.
+[10:20:26.576] Dev0==> Send trd start.
+[10:20:26.580] Dev0==> Schedule trd start.
+[10:20:26.580] Dev0==> Parsing trd start.
+[10:20:26.580] Dev0==> All trd started.
+[10:20:26.580] Dev0==> Connect done.
+[10:20:26.582] Dev0==> Init com start.
+[10:20:26.691] Dev0==> Step1: Register check & clear
+[10:20:26.697] Dev0==> Step2: Get board info.
+[10:20:26.698] Dev0==> Step3: Search slave boards.
+[10:20:26.699] Dev0==> Detected channels: 8
+[10:20:26.700] Dev0[1,1]==> Ch state changed: DISCONNECTED->IDLE.
+[10:20:26.700] Dev0[1,2]==> Ch state changed: DISCONNECTED->IDLE.
+[10:20:26.700] Dev0[1,3]==> Ch state changed: DISCONNECTED->IDLE.
+[10:20:26.700] Dev0[1,4]==> Ch state changed: DISCONNECTED->IDLE.
+[10:20:26.700] Dev0[1,5]==> Ch state changed: DISCONNECTED->IDLE.
+[10:20:26.700] Dev0[1,6]==> Ch state changed: DISCONNECTED->IDLE.
+[10:20:26.700] Dev0[1,7]==> Ch state changed: DISCONNECTED->IDLE.
+[10:20:26.700] Dev0[1,8]==> Ch state changed: DISCONNECTED->IDLE.
+[10:20:26.700] Dev0==> Init com done.
+[10:20:26.701] Dev0==> Func: SetTransmissionControl
+[10:20:27.087] Dev0[1,1]==> Ch trd start.
+[10:20:27.089] Dev0[1,3]==> Ch trd start.
+[10:20:27.089] Dev0[1,2]==> Ch trd start.
+[10:20:27.090] Dev0[1,4]==> Ch trd start.
+[10:20:27.091] Dev0[1,5]==> Ch trd start.
+[10:20:27.102] Dev0[1,7]==> Ch trd start.
+[10:20:27.102] Dev0[1,6]==> Ch trd start.
+[10:20:27.104] Dev0[1,8]==> Ch trd start.
+[10:20:30.474] Dev0==> Start disconnecting.
+[10:20:30.474] Dev0==> Func: stopAllThreads
+[10:20:30.474] Dev0==> Send trd stopped.
+[10:20:30.474] Dev0==> Parsing trd stopped.
+[10:20:30.474] Dev0==> Split trd stopped.
+[10:20:30.474] Dev0==> All trd stopped.
+[10:20:30.474] Dev0[1,1]==> Ch trd stopped.
+[10:20:30.474] Dev0==> Rcv trd stopped.
+[10:20:30.475] Dev0[1,1]==> Ch state changed: IDLE->DISCONNECTED.
+[10:20:30.477] Dev0[1,2]==> Ch state changed: IDLE->DISCONNECTED.
+[10:20:30.478] Dev0[1,2]==> Ch trd stopped.
+[10:20:30.478] Dev0[1,3]==> Ch trd stopped.
+[10:20:30.478] Dev0[1,3]==> Ch state changed: IDLE->DISCONNECTED.
+[10:20:30.479] Dev0[1,4]==> Ch state changed: IDLE->DISCONNECTED.
+[10:20:30.479] Dev0[1,4]==> Ch trd stopped.
+[10:20:30.479] Dev0[1,5]==> Ch state changed: IDLE->DISCONNECTED.
+[10:20:30.479] Dev0[1,5]==> Ch trd stopped.
+[10:20:30.479] Dev0[1,6]==> Ch state changed: IDLE->DISCONNECTED.
+[10:20:30.479] Dev0[1,6]==> Ch trd stopped.
+[10:20:30.480] Dev0[1,7]==> Ch state changed: IDLE->DISCONNECTED.
+[10:20:30.480] Dev0[1,7]==> Ch trd stopped.
+[10:20:30.480] Dev0[1,8]==> Ch state changed: IDLE->DISCONNECTED.
+[10:20:30.480] Dev0[1,8]==> Ch trd stopped.
+[10:20:30.481] Dev0==> Socket disconnecting.
+[10:20:30.484] Dev0==> Socket disconnect done.
+[10:20:46.372] Dev0==> Start disconnecting.
+[10:20:46.372] Dev0==> Func: stopAllThreads
+[10:20:46.372] Dev0==> All trd stopped.
+[10:20:47.851] Dev0==> Start connecting.
+[10:20:47.851] Dev0==> Socket connect to 192.168.124.2:7000.
+[10:20:47.853] Dev0==> Socket connect done.
+[10:20:47.853] Dev0==> Req new port.
+[10:20:47.863] Dev0==> 34334 port received.
+[10:20:47.863] Dev0==> Socket connect to 192.168.124.2:34334.
+[10:20:48.883] Dev0==> Socket connect done.
+[10:20:48.883] Dev0==> Func: startAllThreads
+[10:20:48.884] Dev0==> Rcv trd start.
+[10:20:48.885] Dev0==> Split trd start.
+[10:20:48.886] Dev0==> Parsing trd start.
+[10:20:48.886] Dev0==> Send trd start.
+[10:20:48.887] Dev0==> Schedule trd start.
+[10:20:48.887] Dev0==> All trd started.
+[10:20:48.887] Dev0==> Connect done.
+[10:20:48.887] Dev0==> Init com start.
+[10:20:48.992] Dev0==> Step1: Register check & clear
+[10:20:48.993] Dev0==> Step2: Get board info.
+[10:20:48.994] Dev0==> Step3: Search slave boards.
+[10:20:48.995] Dev0==> Detected channels: 8
+[10:20:48.996] Dev0[1,1]==> Ch state changed: DISCONNECTED->IDLE.
+[10:20:48.996] Dev0[1,2]==> Ch state changed: DISCONNECTED->IDLE.
+[10:20:48.996] Dev0[1,3]==> Ch state changed: DISCONNECTED->IDLE.
+[10:20:48.996] Dev0[1,4]==> Ch state changed: DISCONNECTED->IDLE.
+[10:20:48.996] Dev0[1,5]==> Ch state changed: DISCONNECTED->IDLE.
+[10:20:48.996] Dev0[1,6]==> Ch state changed: DISCONNECTED->IDLE.
+[10:20:48.996] Dev0[1,7]==> Ch state changed: DISCONNECTED->IDLE.
+[10:20:48.996] Dev0[1,8]==> Ch state changed: DISCONNECTED->IDLE.
+[10:20:48.996] Dev0==> Init com done.
+[10:20:48.996] Dev0==> Func: SetTransmissionControl
+[10:20:49.377] Dev0[1,1]==> Ch trd start.
+[10:20:49.378] Dev0[1,2]==> Ch trd start.
+[10:20:49.382] Dev0[1,3]==> Ch trd start.
+[10:20:49.400] Dev0[1,4]==> Ch trd start.
+[10:20:49.401] Dev0[1,5]==> Ch trd start.
+[10:20:49.424] Dev0[1,7]==> Ch trd start.
+[10:20:49.424] Dev0[1,8]==> Ch trd start.
+[10:20:49.424] Dev0[1,6]==> Ch trd start.
+[10:21:13.782] Dev0==> Start disconnecting.
+[10:21:13.782] Dev0==> Func: stopAllThreads
+[10:21:13.782] Dev0==> Split trd stopped.
+[10:21:13.782] Dev0==> Parsing trd stopped.
+[10:21:13.782] Dev0==> Send trd stopped.
+[10:21:13.782] Dev0==> Rcv trd stopped.
+[10:21:13.790] Dev0==> All trd stopped.
+[10:21:13.790] Dev0[1,1]==> Ch trd stopped.
+[10:21:13.790] Dev0[1,1]==> Ch state changed: IDLE->DISCONNECTED.
+[10:21:13.790] Dev0[1,2]==> Ch state changed: IDLE->DISCONNECTED.
+[10:21:13.790] Dev0[1,3]==> Ch state changed: IDLE->DISCONNECTED.
+[10:21:13.790] Dev0[1,3]==> Ch trd stopped.
+[10:21:13.790] Dev0[1,4]==> Ch trd stopped.
+[10:21:13.790] Dev0[1,2]==> Ch trd stopped.
+[10:21:13.790] Dev0[1,4]==> Ch state changed: IDLE->DISCONNECTED.
+[10:21:13.790] Dev0[1,5]==> Ch trd stopped.
+[10:21:13.790] Dev0[1,5]==> Ch state changed: IDLE->DISCONNECTED.
+[10:21:13.790] Dev0[1,6]==> Ch state changed: IDLE->DISCONNECTED.
+[10:21:13.790] Dev0[1,7]==> Ch state changed: IDLE->DISCONNECTED.
+[10:21:13.790] Dev0[1,6]==> Ch trd stopped.
+[10:21:13.790] Dev0[1,7]==> Ch trd stopped.
+[10:21:13.790] Dev0[1,8]==> Ch trd stopped.
+[10:21:13.790] Dev0[1,8]==> Ch state changed: IDLE->DISCONNECTED.
+[10:21:13.791] Dev0==> Socket disconnecting.
+[10:21:13.792] Dev0==> Socket disconnect done.
+[10:21:13.792] Dev0==> Func: stopAllThreads
+[10:21:13.792] Dev0==> All trd stopped.
+[10:21:13.796] Software exit.
+

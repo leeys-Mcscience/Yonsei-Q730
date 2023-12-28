@@ -1,0 +1,131 @@
+[10:31:52.838] Software start.
+[10:32:04.625] Dev0==> Start disconnecting.
+[10:32:04.625] Dev0==> Func: stopAllThreads
+[10:32:04.626] Dev0==> All trd stopped.
+[10:32:04.629] Software exit.
+
+[13:17:46.106] Software start.
+[13:18:08.563] Software start.
+[14:11:12.648] Software start.
+[14:13:53.511] Software start.
+[14:15:01.663] Software start.
+[14:16:03.215] Software start.
+[14:19:12.042] Software start.
+[14:22:21.382] Software start.
+[14:22:55.833] Software start.
+[14:25:34.570] Software start.
+[14:26:11.605] Software start.
+[14:26:33.340] Dev0==> Start disconnecting.
+[14:26:33.340] Dev0==> Func: stopAllThreads
+[14:26:33.340] Dev0==> All trd stopped.
+[14:26:33.343] Software exit.
+
+[14:27:17.225] Software start.
+[14:27:40.415] Dev0==> Start disconnecting.
+[14:27:40.415] Dev0==> Func: stopAllThreads
+[14:27:40.415] Dev0==> All trd stopped.
+[14:27:40.418] Software exit.
+
+[14:28:42.879] Software start.
+[14:28:52.091] Dev0==> Start disconnecting.
+[14:28:52.091] Dev0==> Func: stopAllThreads
+[14:28:52.091] Dev0==> All trd stopped.
+[14:28:52.096] Software exit.
+
+[14:28:54.572] Software start.
+[14:29:13.219] Dev0==> Start disconnecting.
+[14:29:13.219] Dev0==> Func: stopAllThreads
+[14:29:13.219] Dev0==> All trd stopped.
+[14:29:13.222] Software exit.
+
+[14:29:25.913] Software start.
+[14:29:38.269] Dev0==> Start disconnecting.
+[14:29:38.269] Dev0==> Func: stopAllThreads
+[14:29:38.269] Dev0==> All trd stopped.
+[14:29:38.272] Software exit.
+
+[14:29:50.897] Software start.
+[14:29:56.969] Dev0==> Start disconnecting.
+[14:29:56.969] Dev0==> Func: stopAllThreads
+[14:29:56.969] Dev0==> All trd stopped.
+[14:29:56.973] Software exit.
+
+[14:31:05.942] Software start.
+[14:31:14.672] Dev0==> Start disconnecting.
+[14:31:14.672] Dev0==> Func: stopAllThreads
+[14:31:14.672] Dev0==> All trd stopped.
+[14:31:14.676] Software exit.
+
+[14:31:20.058] Software start.
+[14:44:17.878] Dev0==> Start disconnecting.
+[14:44:17.878] Dev0==> Func: stopAllThreads
+[14:44:17.878] Dev0==> All trd stopped.
+[14:44:17.882] Software exit.
+
+[14:45:49.821] Software start.
+[14:46:04.306] Dev0[1,1]==> Ch state changed: DISCONNECTED->IDLE.
+[14:46:23.833] Dev0==> Start disconnecting.
+[14:46:23.833] Dev0==> Func: stopAllThreads
+[14:46:23.833] Dev0==> All trd stopped.
+[14:46:23.833] Dev0[1,1]==> Ch state changed: IDLE->DISCONNECTED.
+[14:46:23.837] Software exit.
+
+[14:50:48.396] Software start.
+[14:52:21.890] Software start.
+[14:52:29.169] Dev0==> Start disconnecting.
+[14:52:29.169] Dev0==> Func: stopAllThreads
+[14:52:29.169] Dev0==> All trd stopped.
+[14:52:29.173] Software exit.
+
+[14:53:14.914] Software start.
+[14:53:16.485] Dev0==> Start disconnecting.
+[14:53:16.486] Dev0==> Func: stopAllThreads
+[14:53:16.486] Dev0==> All trd stopped.
+[14:53:16.489] Software exit.
+
+[14:53:19.709] Software start.
+[14:53:26.285] Dev0==> Start disconnecting.
+[14:53:26.285] Dev0==> Func: stopAllThreads
+[14:53:26.285] Dev0==> All trd stopped.
+[14:53:26.290] Software exit.
+
+[15:18:06.635] Software start.
+[15:18:22.153] Dev0==> Start disconnecting.
+[15:18:22.153] Dev0==> Func: stopAllThreads
+[15:18:22.153] Dev0==> All trd stopped.
+[15:18:22.157] Software exit.
+
+[15:20:00.725] Software start.
+[16:30:43.935] Software start.
+[16:32:30.127] Software start.
+[16:34:28.502] Software start.
+[16:40:17.653] Software start.
+[16:40:20.480] Dev0==> Start disconnecting.
+[16:40:27.094] Dev0==> Start disconnecting.
+[16:40:27.095] Dev0==> Func: stopAllThreads
+[16:40:27.095] Dev0==> All trd stopped.
+[16:40:27.099] Software exit.
+
+[16:50:06.692] Software start.
+[16:50:20.807] Dev0[1,1]==> Ch state changed: DISCONNECTED->IDLE.
+[16:50:28.224] Dev0[1,1]==> Ch state changed: IDLE->RUN.
+[16:51:25.094] Dev0[1,1]==> Ch state changed: RUN->IDLE.
+[16:51:30.661] Dev0[1,1]==> Ch state changed: IDLE->RUN.
+[16:51:41.492] Dev0==> Start disconnecting.
+[16:51:41.493] Dev0==> Func: stopAllThreads
+[16:51:41.493] Dev0==> All trd stopped.
+[16:51:41.493] Dev0[1,1]==> Ch state changed: RUN->DISCONNECTED.
+[16:51:41.496] Software exit.
+
+[16:53:19.283] Software start.
+[16:54:54.125] Dev0==> Start disconnecting.
+[16:54:54.126] Dev0==> Func: stopAllThreads
+[16:54:54.126] Dev0==> All trd stopped.
+[16:54:54.129] Software exit.
+
+[17:34:04.811] Software start.
+[17:35:48.490] Dev0==> Start disconnecting.
+[17:35:48.490] Dev0==> Func: stopAllThreads
+[17:35:48.490] Dev0==> All trd stopped.
+[17:35:48.493] Software exit.
+
