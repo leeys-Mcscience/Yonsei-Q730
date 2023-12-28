@@ -1,0 +1,58 @@
+﻿McQLib Recipe Manual ver 0.1 (20210629)
+by DevJaemin
+
+1. 개요
+McQLib을 사용하면 Q730 SW의 Sequence Builder 및 Q Component에서 사용되는 Recipe를 편리하게 생성, 수정할 수 있다.
+이 문서에서는 Recipe과 Sequence, Packet 구조의 동작 원리에 대해서는 설명하지 않으며, 유지/보수와 관련된 내용만 기술하였다.
+
+기본적인 용어와 코드상의 명칭에 영어가 사용되어 혼동을 야기할 수 있으므로, 코드상에서 '실제로 사용되는(클래스 이름, 필드 이름 등) 명칭'은 작은 따옴표(')로 둘러싸 표기함.
+프로토콜 문서 등에서 통용되는 용어는 대괄호([])로 둘러싸 표기함.
+
+2. Recipe 상속 구조
+(1) 모든 Recipe은 최상위 인터페이스인 'IRecipe'을 구현한다.
+(2) [안전 조건]을 포함하는 Recipe을 구성하기 위해 'IRecipe'을 구현하는 'BaseRecipe' 추상클래스가 있다.
+(3) [안전 조건]과 더불어 [종료 조건], [기록 조건]을 포함하는 Recipe을 구성하기 위해 'BaseRecipe'로부터 상속 받는 'BaseBasicRecipe' 추상 클래스가 있다.
+(4) Charge, Discharge, Rest는 각각 'Charge', 'Discharge', 'Rest' 클래스로 구현되어 있으며, 'BaseBasicRecipe'로부터 상속된다.
+
+3. Recipe 구성
+최상위 인터페이스인 'IRecipe'은 아래 멤버를 가진다.
+
+string Name { get; }
+byte[] ToCommand(ushort, ushort, ushort);
+
+Name은 클래스의 명칭을 반환하는 속성(Property)이다.
+ToCommand() 추상 형식 메서드는 레시피가 통신 패킷의 DATA Field에 삽입되기 위해 byte[] 프로토콜에 맞추어 변환하는 동작을 위한 메서드이다.
+따라서 BaseRecipe, BaseBasicRecipe 등의 추상 클래스가 아닌 모든 Recipe 클래스는 ToCommand() 메서드를 반드시 '직접' 구현해야 한다.
+
+4. Attribute(특성)의 사용
+Recipe은 Q730 등 UI Software로부터 사용자에게 노출되어 사용자가 설정할 수 있는 Parameter를 가질 수 있다.
+이러한 Parameter 들은 ParameterAttribute 특성을 사용하여 사용자에게 보여질 구성을 설정해야 한다.
+ParamterAttribute 특성은 아래와 같이 구성된다.
+
+string Name;
+string Unit;
+string Help;
+ParameterValueType ParameterValueType;
+
+Name은 해당 Parameter가 '실제로' 보여지는 이름을 의미한다.
+Unit은 해당 Parameter의 단위를 의미한다. 가령 Parameter가 Max Voltage라면 Unit은 V가 될 것이다.
+Help는 해당 Parameter에 대한 사용자에게 보여지는 도움말이다.
+ParameterValueType은 해당 Parameter에 사용 가능한 '값'의 종류를 나타내는 열거형이다.
+enum ParameterValueType는 아래와 같이 구성된다.
+
+Integer				: 정수 값
+UnsignedInteger		: 부호 없는 정수 값
+Double				: 실수 값 (배정밀도)
+Float				: 실수 값 (단정밀도)
+String				: 문자열
+Boolean				: 부울 값 (true/false)
+Enum				: 열거형
+Time				: 시간
+Pattern				: Pattern 레시피에서 사용 가능한 값
+
+위와 같이 값 형태를 구성한 것은, Parameter에 입력받기 위한 컨트롤을 동적으로 생성하여 UI 상에 표기하기 위함으로, ParameterValueType에 따라 생성되는 컨트롤의 종류가 텍스트박스/콤보박스/버튼 등으로 달라진다.
+Integer, UnsignedInteger, Double, Float, String은 TextBox로 입력받는다. (패킷의 DATA Field에서 Double과 Float의 바이트 수가 다르기 때문에 Double과 Float을 반드시 구분하여야 한다.)
+Boolean, Enum은 ComboBox로 입력받는다. Boolean은 True, False의 두 개 아이템을 갖고, Enum은 해당 파라미터의 형식이 되는 enum의 모든 열거형 멤버를 아이템으로 갖는다.
+Time은 (미구현)
+Pattern은 파일로부터 불러오기 위해 File Dialog를 여는 버튼 등이 생성된다.
+

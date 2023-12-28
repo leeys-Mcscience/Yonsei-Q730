@@ -1,0 +1,28 @@
+G01:Charge DisCharge
+G02:None
+G03:2
+X01:0
+X02:0
+X03:True
+X04:True
+X05:False
+X06:TotalTime
+Y01:0
+Y02:0
+Y03:True
+Y04:True
+Y05:False
+Z01:Voltage
+Z02:Color [Blue]
+V01:None
+V02:Color [A=255, R=255, G=128, B=0]
+D01:None,Cycle,ChargeCapacity,DisChargeCapacity,TotalTime,StepTime,Voltage,Current,Capacity,WattHour
+S00:360
+S01:1545
+S02:1936
+S03:1096
+U01:Default
+U02:Milli
+U03:Default
+U04:Second
+

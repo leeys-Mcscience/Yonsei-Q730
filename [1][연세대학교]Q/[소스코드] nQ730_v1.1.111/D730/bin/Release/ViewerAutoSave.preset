@@ -1,0 +1,26 @@
+G01:
+G02:False
+G03:True
+G04:Columns
+G05:True
+G06:False
+G07:True
+X01:0
+X02:0
+X03:True
+X04:True
+X05:False
+D01:None,TotalTime,StepTime,Voltage,Current,Capacity,Power,WattHour,Temperature
+X05:None
+S00:300
+S01:230
+S02:1250
+S03:860
+U01:Default
+U02:Default
+U03:Default
+U04:Default
+U05:Second
+YAxis:A01=0?A02=0?A03=True?A04=True?A05=False?A0B=0?A06=2?A07=Color [Blue]?A08=False?A09=None?A0A=Voltage?
+Y2Axis:A01=0?A02=0?A03=True?A04=True?A05=False?A0B=0?A06=2?A07=Color [Red]?A08=True?A09=None?A0A=Current?
+

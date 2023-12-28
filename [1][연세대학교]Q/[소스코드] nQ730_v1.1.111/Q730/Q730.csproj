@@ -1,0 +1,464 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8474257A-AE75-440D-87B3-CB5384C590BA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Q730</RootNamespace>
+    <AssemblyName>Q730</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>게시\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;CONSOLEOUT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>q-48.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Q730.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.WindowsAPICodePack, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\WindowsAPICodePack.1.1.2\lib\Microsoft.WindowsAPICodePack.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack.ExtendedLinguisticServices, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\WindowsAPICodePack.1.1.2\lib\Microsoft.WindowsAPICodePack.ExtendedLinguisticServices.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack.Sensors, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\WindowsAPICodePack.1.1.2\lib\Microsoft.WindowsAPICodePack.Sensors.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack.Shell, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\WindowsAPICodePack.1.1.2\lib\Microsoft.WindowsAPICodePack.Shell.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack.ShellExtensions, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\WindowsAPICodePack.1.1.2\lib\Microsoft.WindowsAPICodePack.ShellExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ZedGraph">
+      <HintPath>.\ZedGraph.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data\GraphSheetDatas.cs" />
+    <Compile Include="DeviceConfiguration.cs" />
+    <Compile Include="Form_PacketParser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_PacketParser.Designer.cs">
+      <DependentUpon>Form_PacketParser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_PatchNote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_PatchNote.Designer.cs">
+      <DependentUpon>Form_PatchNote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_PresetSelectBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_PresetSelectBox.Designer.cs">
+      <DependentUpon>Form_PresetSelectBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_TextExportSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_TextExportSetting.Designer.cs">
+      <DependentUpon>Form_TextExportSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SoftwareConfiguration.cs" />
+    <Compile Include="CustomMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomMessageBox.Designer.cs">
+      <DependentUpon>CustomMessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Configuration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Configuration.Designer.cs">
+      <DependentUpon>Form_Configuration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Main.Designer.cs">
+      <DependentUpon>Form_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_PatternEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_PatternEditor.Designer.cs">
+      <DependentUpon>Form_PatternEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_SequenceBuilder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_SequenceBuilder.Designer.cs">
+      <DependentUpon>Form_SequenceBuilder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_SequenceBuilder_Test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_SequenceBuilder_Test.Designer.cs">
+      <DependentUpon>Form_SequenceBuilder_Test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tester\Form_Tester.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tester\Form_Tester.Designer.cs">
+      <DependentUpon>Form_Tester.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControls\Graphs\IGraphControl.cs" />
+    <Compile Include="UserControls\Graphs\UserControl_DisChargeCapacity.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Graphs\UserControl_DisChargeCapacity.Designer.cs">
+      <DependentUpon>UserControl_DisChargeCapacity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Graphs\UserControl_ChargeCapacity.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Graphs\UserControl_ChargeCapacity.Designer.cs">
+      <DependentUpon>UserControl_ChargeCapacity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Graphs\UserControl_DcGraph.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Graphs\UserControl_DcGraph.Designer.cs">
+      <DependentUpon>UserControl_DcGraph.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Graphs\UserControl_DcrGraph.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Graphs\UserControl_DcrGraph.Designer.cs">
+      <DependentUpon>UserControl_DcrGraph.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Graphs\UserControl_FraAcrGraph.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Graphs\UserControl_FraAcrGraph.Designer.cs">
+      <DependentUpon>UserControl_FraAcrGraph.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Graphs\UserControl_PatternGraph.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Graphs\UserControl_PatternGraph.Designer.cs">
+      <DependentUpon>UserControl_PatternGraph.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Graphs\UserControl_TraGraph.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Graphs\UserControl_TraGraph.Designer.cs">
+      <DependentUpon>UserControl_TraGraph.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UserControl_CaptionBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UserControl_CaptionBar.Designer.cs">
+      <DependentUpon>UserControl_CaptionBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UserControl_ChannelGridView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UserControl_ChannelGridView.Designer.cs">
+      <DependentUpon>UserControl_ChannelGridView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UserControl_ChannelDetailView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UserControl_ChannelDetailView.Designer.cs">
+      <DependentUpon>UserControl_ChannelDetailView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UserControl_ChannelListView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UserControl_ChannelListView.Designer.cs">
+      <DependentUpon>UserControl_ChannelListView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NotUsed\UserControl_ParameterBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NotUsed\UserControl_ParameterBox.Designer.cs">
+      <DependentUpon>UserControl_ParameterBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NotUsed\UserControl_ParameterItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NotUsed\UserControl_ParameterItem.Designer.cs">
+      <DependentUpon>UserControl_ParameterItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UserControl_Graph.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UserControl_Graph.Designer.cs">
+      <DependentUpon>UserControl_Graph.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UserControl_GraphGridView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UserControl_GraphGridView.Designer.cs">
+      <DependentUpon>UserControl_GraphGridView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UserControl_RecipeItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UserControl_RecipeItem.Designer.cs">
+      <DependentUpon>UserControl_RecipeItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UserControl_SequenceBuilder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UserControl_SequenceBuilder.Designer.cs">
+      <DependentUpon>UserControl_SequenceBuilder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NotUsed\UserControl_TimeBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NotUsed\UserControl_TimeBox.Designer.cs">
+      <DependentUpon>UserControl_TimeBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UserControl_SequenceBuilder_Stability.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UserControl_SequenceBuilder_Stability.Designer.cs">
+      <DependentUpon>UserControl_SequenceBuilder_Stability.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UserControl_SequenceProgressBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UserControl_SequenceProgressBox.Designer.cs">
+      <DependentUpon>UserControl_SequenceProgressBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UserControl_SequenceViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UserControl_SequenceViewer.Designer.cs">
+      <DependentUpon>UserControl_SequenceViewer.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CustomMessageBox.resx">
+      <DependentUpon>CustomMessageBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_PacketParser.resx">
+      <DependentUpon>Form_PacketParser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Configuration.resx">
+      <DependentUpon>Form_Configuration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Main.resx">
+      <DependentUpon>Form_Main.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_PatchNote.resx">
+      <DependentUpon>Form_PatchNote.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_PatternEditor.resx">
+      <DependentUpon>Form_PatternEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_PresetSelectBox.resx">
+      <DependentUpon>Form_PresetSelectBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_SequenceBuilder.resx">
+      <DependentUpon>Form_SequenceBuilder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_SequenceBuilder_Test.resx">
+      <DependentUpon>Form_SequenceBuilder_Test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_TextExportSetting.resx">
+      <DependentUpon>Form_TextExportSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tester\Form_Tester.resx">
+      <DependentUpon>Form_Tester.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UserControls\Graphs\UserControl_DisChargeCapacity.resx">
+      <DependentUpon>UserControl_DisChargeCapacity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Graphs\UserControl_ChargeCapacity.resx">
+      <DependentUpon>UserControl_ChargeCapacity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Graphs\UserControl_DcGraph.resx">
+      <DependentUpon>UserControl_DcGraph.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Graphs\UserControl_DcrGraph.resx">
+      <DependentUpon>UserControl_DcrGraph.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Graphs\UserControl_FraAcrGraph.resx">
+      <DependentUpon>UserControl_FraAcrGraph.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Graphs\UserControl_PatternGraph.resx">
+      <DependentUpon>UserControl_PatternGraph.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Graphs\UserControl_TraGraph.resx">
+      <DependentUpon>UserControl_TraGraph.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UserControl_CaptionBar.resx">
+      <DependentUpon>UserControl_CaptionBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UserControl_ChannelGridView.resx">
+      <DependentUpon>UserControl_ChannelGridView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UserControl_ChannelDetailView.resx">
+      <DependentUpon>UserControl_ChannelDetailView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UserControl_ChannelListView.resx">
+      <DependentUpon>UserControl_ChannelListView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NotUsed\UserControl_ParameterBox.resx">
+      <DependentUpon>UserControl_ParameterBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NotUsed\UserControl_ParameterItem.resx">
+      <DependentUpon>UserControl_ParameterItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UserControl_Graph.resx">
+      <DependentUpon>UserControl_Graph.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UserControl_GraphGridView.resx">
+      <DependentUpon>UserControl_GraphGridView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UserControl_RecipeItem.resx">
+      <DependentUpon>UserControl_RecipeItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UserControl_SequenceBuilder.resx">
+      <DependentUpon>UserControl_SequenceBuilder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NotUsed\UserControl_TimeBox.resx">
+      <DependentUpon>UserControl_TimeBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UserControl_SequenceBuilder_Stability.resx">
+      <DependentUpon>UserControl_SequenceBuilder_Stability.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UserControl_SequenceProgressBox.resx">
+      <DependentUpon>UserControl_SequenceProgressBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UserControl_SequenceViewer.resx">
+      <DependentUpon>UserControl_SequenceViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\D730\D730.csproj">
+      <Project>{83c9eba1-cd90-4161-9beb-c903003fd4a8}</Project>
+      <Name>D730</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JmCmdLib\JmCmdLib.csproj">
+      <Project>{E9EF6F60-76A9-4724-BA58-DE8401CF6B83}</Project>
+      <Name>JmCmdLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\McQLib\McQLib.csproj">
+      <Project>{f51c3196-d78a-4989-b410-7699eb105c86}</Project>
+      <Name>McQLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="license.txt" />
+    <Content Include="PatchNote.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="q-48.ico" />
+    <None Include="Resources\Banner.png" />
+    <None Include="Resources\Close.png" />
+    <None Include="Resources\Maximize.png" />
+    <None Include="Resources\Minimize.png" />
+    <None Include="Resources\Normalize.png" />
+    <None Include="Resources\소프트웨어UI-Q730 Battery Parameter Test Software%28Icon-Connect%29-20211001.png" />
+    <None Include="Resources\소프트웨어UI-Q730 Battery Parameter Test Software%28Icon-Connect-S%29-20211001.png" />
+    <None Include="Resources\소프트웨어UI-Q730 Battery Parameter Test Software%28Icon-Next%29-20211001.png" />
+    <None Include="Resources\소프트웨어UI-Q730 Battery Parameter Test Software%28Icon-Pause%29-20211001.png" />
+    <None Include="Resources\소프트웨어UI-Q730 Battery Parameter Test Software%28Icon-Sequence Builder%29-20211001.png" />
+    <None Include="Resources\소프트웨어UI-Q730 Battery Parameter Test Software%28Icon-Setting%29-20211001.png" />
+    <None Include="Resources\소프트웨어UI-Q730 Battery Parameter Test Software%28Icon-Start%29-20211001.png" />
+    <None Include="Resources\소프트웨어UI-Q730 Battery Parameter Test Software%28Icon-Stop%29-20211001.png" />
+    <None Include="Resources\01Menu.png" />
+    <None Include="Resources\TitleBar_Q730.png" />
+    <None Include="Resources\TitleBar_Q731.png" />
+    <Content Include="Windows Logo.png" />
+    <None Include="Resources\IDLE.PNG" />
+    <None Include="Resources\_END.PNG" />
+    <None Include="Resources\Checkbox2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

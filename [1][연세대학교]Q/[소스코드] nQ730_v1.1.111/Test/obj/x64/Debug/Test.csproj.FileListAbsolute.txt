@@ -1,0 +1,2 @@
+D:\WorkSpace\[1][연세대학교]Q\[소스코드] nQ730_v1.1.111\Test\obj\x64\Debug\Test.csproj.AssemblyReference.cache
+D:\WorkSpace\[1][연세대학교]Q\[소스코드] nQ730_v1.1.111\Test\obj\x64\Debug\Test.csproj.CoreCompileInputs.cache

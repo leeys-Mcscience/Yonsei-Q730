@@ -1,0 +1,26 @@
+G01:DcGraph
+G02:False
+G03:True
+G04:Recipes
+G05:True
+G06:False
+G07:False
+X01:0
+X02:0
+X03:True
+X04:True
+X05:False
+D01:None,TotalTime,Cycle,StepTime,Voltage,Current,ChargeCapacity,DisChargeCapacity,Capacity,Power,WattHour,Temperature
+X05:None
+S00:373
+S01:1555
+S02:1936
+S03:1096
+U01:Milli
+U02:Milli
+U03:Default
+U04:Default
+U05:Minute
+YAxis:A01=0?A02=0?A03=True?A04=True?A05=False?A0B=0?A06=2?A07=Color [Blue]?A08=False?A09=None?A0A=ChargeCapacity?
+Y2Axis:A01=0?A02=0?A03=True?A04=True?A05=False?A0B=0?A06=2?A07=Color [Red]?A08=True?A09=None?A0A=DisChargeCapacity?
+

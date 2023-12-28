@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F51C3196-D78A-4989-B410-7699EB105C86}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>McQLib</RootNamespace>
+    <AssemblyName>McQLib</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;CONSOLEOUT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\McQLib.xml</DocumentationFile>
+    <LangVersion>preview</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\McQLib.xml</DocumentationFile>
+    <LangVersion>preview</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ZedGraph">
+      <HintPath>..\Q730\ZedGraph.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Core\BaseSetting.cs" />
+    <Compile Include="Core\DataStructure.cs" />
+    <Compile Include="Core\IDAttribute.cs" />
+    <Compile Include="Core\Security.cs" />
+    <Compile Include="Core\Unit.cs" />
+    <Compile Include="Developer\Develop.cs" />
+    <Compile Include="GUI\Form_QueueMonitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Form_QueueMonitor.Designer.cs">
+      <DependentUpon>Form_QueueMonitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IO\QDataReader.cs" />
+    <Compile Include="IO\QDataStream.cs" />
+    <Compile Include="IO\QDataWriter.cs" />
+    <Compile Include="NotUsed\Core\GroupAttribute.cs" />
+    <Compile Include="NotUsed\Core\HelpAttribute.cs" />
+    <Compile Include="NotUsed\Core\ParameterAttribute.cs" />
+    <Compile Include="Core\QException.cs" />
+    <Compile Include="NotUsed\Core\UnitAttribute.cs" />
+    <Compile Include="NotUsed\Core\InvisibleAttribute.cs" />
+    <Compile Include="Core\VersionInfo.cs" />
+    <Compile Include="Device\Q100LAB\Channel.cs" />
+    <Compile Include="Device\Q100LAB\Command.cs" />
+    <Compile Include="Device\Q100LAB\Communicator.cs" />
+    <Compile Include="Device\Q100LAB\Packet.cs" />
+    <Compile Include="Core\Util.cs" />
+    <Compile Include="NotUsed\Recipes\End.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Recipes\BaseConvertableRecipe.cs" />
+    <Compile Include="Recipes\BatteryInfo.cs" />
+    <Compile Include="Recipes\CrateInfo.cs" />
+    <Compile Include="Recipes\Idle.cs" />
+    <Compile Include="Recipes\IPacketConvertable.cs" />
+    <Compile Include="Recipes\Recipe.cs" />
+    <Compile Include="Recipes\Condition\EndCondition.cs" />
+    <Compile Include="Recipes\Condition\SafetyCondition.cs" />
+    <Compile Include="Recipes\Condition\SaveCondition.cs" />
+    <Compile Include="GUI\Form_PatternEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Form_PatternEditor.Designer.cs">
+      <DependentUpon>Form_PatternEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recipes\RecipeFactory.cs" />
+    <Compile Include="Recipes\RecipeInfo.cs" />
+    <Compile Include="Recipes\RecipeMulti\CdCycle.cs" />
+    <Compile Include="Recipes\RecipeSetting.cs" />
+    <Compile Include="Recipes\RecipeUnit\AcResistance.cs" />
+    <Compile Include="Recipes\RecipeUnit\AnodeCharge.cs" />
+    <Compile Include="Recipes\RecipeUnit\AnodeDischarge.cs" />
+    <Compile Include="Recipes\RecipeUnit\Charge.cs" />
+    <Compile Include="Recipes\RecipeUnit\Cycle.cs" />
+    <Compile Include="Recipes\RecipeUnit\DcResistance.cs" />
+    <Compile Include="Recipes\RecipeUnit\Discharge.cs" />
+    <Compile Include="Recipes\RecipeUnit\FrequencyResponse.cs" />
+    <Compile Include="Recipes\RecipeUnit\Jump.cs" />
+    <Compile Include="Recipes\RecipeMulti\Label.cs" />
+    <Compile Include="Recipes\RecipeUnit\Loop.cs" />
+    <Compile Include="Recipes\RecipeUnit\OpenCircuitVoltage.cs" />
+    <Compile Include="Recipes\RecipeUnit\Pattern.cs" />
+    <Compile Include="Recipes\RecipeUnit\Rest.cs" />
+    <Compile Include="Recipes\RecipeMulti\Temperature.cs" />
+    <Compile Include="Recipes\RecipeUnit\TransientResponse.cs" />
+    <Compile Include="OldSupport\OldPattern.cs" />
+    <Compile Include="OldSupport\OldSequence.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="NotUsed\Recipes\BaseRecipe.cs" />
+    <Compile Include="NotUsed\Recipes\Basic\BaseBasicRecipe.cs" />
+    <Compile Include="NotUsed\Recipes\Basic\Charge.cs" />
+    <Compile Include="NotUsed\Recipes\Basic\ChargeDischargeCycle.cs" />
+    <Compile Include="NotUsed\Recipes\Basic\Discharge.cs" />
+    <Compile Include="NotUsed\Recipes\Basic\Pattern.cs" />
+    <Compile Include="NotUsed\Recipes\Basic\Rest.cs" />
+    <Compile Include="NotUsed\Recipes\Basic\Temperature.cs" />
+    <Compile Include="Recipes\End.cs" />
+    <Compile Include="NotUsed\Recipes\IRecipe.cs" />
+    <Compile Include="NotUsed\Recipes\Measurement\AcResistance.cs" />
+    <Compile Include="NotUsed\Recipes\Measurement\BaseMeasurementRecipe.cs" />
+    <Compile Include="NotUsed\Recipes\Measurement\DcResistance.cs" />
+    <Compile Include="NotUsed\Recipes\Measurement\FrequencyResponse.cs" />
+    <Compile Include="NotUsed\Recipes\Measurement\OpenCircuitVoltage.cs" />
+    <Compile Include="NotUsed\Recipes\Measurement\TransientResponse.cs" />
+    <Compile Include="NotUsed\Recipes\RecipeFactory.cs" />
+    <Compile Include="NotUsed\Recipes\Sequence.cs" />
+    <Compile Include="NotUsed\Recipes\Tool\Cycle.cs" />
+    <Compile Include="NotUsed\Recipes\Tool\Loop.cs" />
+    <Compile Include="Recipes\Sequence.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="NotUsed\Recipes\Manual.txt" />
+    <None Include="Resources\Icon_AnodeDischarge.png" />
+    <None Include="Resources\Icon_AnodeCharge.png" />
+    <None Include="Resources\Icon_Idle.png" />
+    <None Include="Resources\Icon_End.png" />
+    <None Include="Resources\Icon_TransientResponse.png" />
+    <None Include="Resources\Icon_Temperature.png" />
+    <None Include="Resources\Icon_Rest.png" />
+    <None Include="Resources\Icon_Pattern.png" />
+    <None Include="Resources\Icon_OpenCircuitVoltage.png" />
+    <None Include="Resources\Icon_Loop.png" />
+    <None Include="Resources\Icon_Label.png" />
+    <None Include="Resources\Icon_Jump.png" />
+    <None Include="Resources\Icon_FrequencyResponse.png" />
+    <None Include="Resources\Icon_Discharge.png" />
+    <None Include="Resources\Icon_DcResistance.png" />
+    <None Include="Resources\Icon_Cycle.png" />
+    <None Include="Resources\Icon_Cyc.png" />
+    <None Include="Resources\Icon_Charge.png" />
+    <Content Include="Resources\Icon_AcResistance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="GUI\Form_PatternEditor.resx">
+      <DependentUpon>Form_PatternEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Form_QueueMonitor.resx">
+      <DependentUpon>Form_QueueMonitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\JmCmdLib\JmCmdLib.csproj">
+      <Project>{e9ef6f60-76a9-4724-ba58-de8401cf6b83}</Project>
+      <Name>JmCmdLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,184 @@
+D:\Projects\Q\Q730 SW 개발\[Git]Q730\Q730\bin\Release\Q730.exe.config
+D:\Projects\Q\Q730 SW 개발\[Git]Q730\Q730\bin\Release\Q730.exe
+D:\Projects\Q\Q730 SW 개발\[Git]Q730\Q730\bin\Release\Q730.pdb
+D:\Projects\Q\Q730 SW 개발\[Git]Q730\Q730\bin\Release\JmCmdLib.dll
+D:\Projects\Q\Q730 SW 개발\[Git]Q730\Q730\bin\Release\McQLib.dll
+D:\Projects\Q\Q730 SW 개발\[Git]Q730\Q730\bin\Release\Microsoft.WindowsAPICodePack.dll
+D:\Projects\Q\Q730 SW 개발\[Git]Q730\Q730\bin\Release\Microsoft.WindowsAPICodePack.ExtendedLinguisticServices.dll
+D:\Projects\Q\Q730 SW 개발\[Git]Q730\Q730\bin\Release\Microsoft.WindowsAPICodePack.Sensors.dll
+D:\Projects\Q\Q730 SW 개발\[Git]Q730\Q730\bin\Release\Microsoft.WindowsAPICodePack.Shell.dll
+D:\Projects\Q\Q730 SW 개발\[Git]Q730\Q730\bin\Release\Microsoft.WindowsAPICodePack.ShellExtensions.dll
+D:\Projects\Q\Q730 SW 개발\[Git]Q730\Q730\bin\Release\PacketParser.exe
+D:\Projects\Q\Q730 SW 개발\[Git]Q730\Q730\bin\Release\ZedGraph.dll
+D:\Projects\Q\Q730 SW 개발\[Git]Q730\Q730\bin\Release\JmCmdLib.pdb
+D:\Projects\Q\Q730 SW 개발\[Git]Q730\Q730\bin\Release\McQLib.pdb
+D:\Projects\Q\Q730 SW 개발\[Git]Q730\Q730\bin\Release\PacketParser.pdb
+D:\Projects\Q\Q730 SW 개발\[Git]Q730\Q730\bin\Release\PacketParser.exe.config
+D:\Projects\Q\Q730 SW 개발\[Git]Q730\Q730\obj\Release\Q730.csproj.AssemblyReference.cache
+D:\Projects\Q\Q730 SW 개발\[Git]Q730\Q730\obj\Release\Q730.CustomMessageBox.resources
+D:\Projects\Q\Q730 SW 개발\[Git]Q730\Q730\obj\Release\Q730.Form_Configuration.resources
+D:\Projects\Q\Q730 SW 개발\[Git]Q730\Q730\obj\Release\Q730.Form_Main.resources
+D:\Projects\Q\Q730 SW 개발\[Git]Q730\Q730\obj\Release\Q730Test.Form_NewPropertyViewTest.resources
+D:\Projects\Q\Q730 SW 개발\[Git]Q730\Q730\obj\Release\Q730.Form_PatternEditor.resources
+D:\Projects\Q\Q730 SW 개발\[Git]Q730\Q730\obj\Release\Q730.Form_SequenceBuilder.resources
+D:\Projects\Q\Q730 SW 개발\[Git]Q730\Q730\obj\Release\Q730.Form_SequenceBuilder_Test.resources
+D:\Projects\Q\Q730 SW 개발\[Git]Q730\Q730\obj\Release\Q730.Form_Tester.resources
+D:\Projects\Q\Q730 SW 개발\[Git]Q730\Q730\obj\Release\Q730.Properties.Resources.resources
+D:\Projects\Q\Q730 SW 개발\[Git]Q730\Q730\obj\Release\Q730.UserControls.UserControl_CaptionBar.resources
+D:\Projects\Q\Q730 SW 개발\[Git]Q730\Q730\obj\Release\Q730.UserControls.UserControl_ChannelGridView.resources
+D:\Projects\Q\Q730 SW 개발\[Git]Q730\Q730\obj\Release\Q730.UserControls.UserControl_ChannelDetailView.resources
+D:\Projects\Q\Q730 SW 개발\[Git]Q730\Q730\obj\Release\Q730.UserControls.UserControl_ChannelListView.resources
+D:\Projects\Q\Q730 SW 개발\[Git]Q730\Q730\obj\Release\Q730.NotUsed.UserControl_ParameterBox.resources
+D:\Projects\Q\Q730 SW 개발\[Git]Q730\Q730\obj\Release\Q730.NotUsed.UserControl_ParameterItem.resources
+D:\Projects\Q\Q730 SW 개발\[Git]Q730\Q730\obj\Release\Q730.UserControls.UserControl_Graph.resources
+D:\Projects\Q\Q730 SW 개발\[Git]Q730\Q730\obj\Release\Q730.UserControls.UserControl_GraphGridView.resources
+D:\Projects\Q\Q730 SW 개발\[Git]Q730\Q730\obj\Release\Q730.UserControls.UserControl_RecipeItem.resources
+D:\Projects\Q\Q730 SW 개발\[Git]Q730\Q730\obj\Release\Q730.UserControls.UserControl_SequenceBuilder.resources
+D:\Projects\Q\Q730 SW 개발\[Git]Q730\Q730\obj\Release\Q730.NotUsed.UserControl_TimeBox.resources
+D:\Projects\Q\Q730 SW 개발\[Git]Q730\Q730\obj\Release\Q730.UserControls.UserControl_SequenceProgressBox.resources
+D:\Projects\Q\Q730 SW 개발\[Git]Q730\Q730\obj\Release\Q730.UserControls.UserControl_SequenceViewer.resources
+D:\Projects\Q\Q730 SW 개발\[Git]Q730\Q730\obj\Release\Q730.csproj.GenerateResource.cache
+D:\Projects\Q\Q730 SW 개발\[Git]Q730\Q730\obj\Release\Q730.csproj.CoreCompileInputs.cache
+D:\Projects\Q\Q730 SW 개발\[Git]Q730\Q730\obj\Release\Q730.csproj.CopyComplete
+D:\Projects\Q\Q730 SW 개발\[Git]Q730\Q730\obj\Release\Q730.exe
+D:\Projects\Q\Q730 SW 개발\[Git]Q730\Q730\obj\Release\Q730.pdb
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\bin\Release\PatchNote.txt
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\bin\Release\Q730.exe.config
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\bin\Release\Q730.exe
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\bin\Release\JmCmdLib.dll
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\bin\Release\McQLib.dll
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\bin\Release\Microsoft.WindowsAPICodePack.dll
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\bin\Release\Microsoft.WindowsAPICodePack.ExtendedLinguisticServices.dll
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\bin\Release\Microsoft.WindowsAPICodePack.Sensors.dll
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\bin\Release\Microsoft.WindowsAPICodePack.Shell.dll
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\bin\Release\Microsoft.WindowsAPICodePack.ShellExtensions.dll
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\bin\Release\ZedGraph.dll
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\obj\Release\Q730.csproj.AssemblyReference.cache
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\obj\Release\Q730.CustomMessageBox.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\obj\Release\Q730.DataViewer.Form_Export.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\obj\Release\Q730.Form_Configuration.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\obj\Release\Q730.Form_Main.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\obj\Release\Q730.Form_PatchNote.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\obj\Release\Q730.Form_PatternEditor.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\obj\Release\Q730.Form_SequenceBuilder.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\obj\Release\Q730.Form_SequenceBuilder_Test.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\obj\Release\Q730.Form_Tester.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\obj\Release\Q730.Properties.Resources.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\obj\Release\Q730.UserControls.Graphs.UserControl_DcGraph.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\obj\Release\Q730.UserControls.Graphs.UserControl_DcrGraph.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\obj\Release\Q730.UserControls.Graphs.UserControl_FraAcrGraph.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\obj\Release\Q730.UserControls.Graphs.UserControl_PatternGraph.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\obj\Release\Q730.UserControls.Graphs.UserControl_TraGraph.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\obj\Release\Q730.UserControls.UserControl_CaptionBar.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\obj\Release\Q730.UserControls.UserControl_ChannelGridView.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\obj\Release\Q730.UserControls.UserControl_ChannelDetailView.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\obj\Release\Q730.UserControls.UserControl_ChannelListView.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\obj\Release\Q730.NotUsed.UserControl_ParameterBox.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\obj\Release\Q730.NotUsed.UserControl_ParameterItem.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\obj\Release\Q730.DataViewer.UserControl_DataViewer.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\obj\Release\Q730.UserControls.UserControl_Graph.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\obj\Release\Q730.UserControls.UserControl_GraphGridView.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\obj\Release\Q730.UserControls.UserControl_RecipeItem.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\obj\Release\Q730.UserControls.UserControl_SequenceBuilder.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\obj\Release\Q730.NotUsed.UserControl_TimeBox.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\obj\Release\Q730.UserControls.UserControl_SequenceBuilder_Stability.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\obj\Release\Q730.UserControls.UserControl_SequenceProgressBox.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\obj\Release\Q730.UserControls.UserControl_SequenceViewer.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\obj\Release\Q730.csproj.GenerateResource.cache
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\obj\Release\Q730.csproj.CoreCompileInputs.cache
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\obj\Release\Q730.csproj.CopyComplete
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\obj\Release\Q730.exe
+D:\Projects\Q\Q730 SW 개발\nQ730 (v0.8.14) (2)\Q730\obj\Release\PacketParser.Form1.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\obj\Release\Q730.csproj.AssemblyReference.cache
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\obj\Release\Q730.CustomMessageBox.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\obj\Release\Q730.DataViewer.Form_Export.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\obj\Release\PacketParser.Form1.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\obj\Release\Q730.Form_Configuration.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\obj\Release\Q730.Form_Main.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\obj\Release\Q730.Form_PatchNote.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\obj\Release\Q730.Form_PatternEditor.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\obj\Release\Q730.Form_SequenceBuilder.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\obj\Release\Q730.Form_SequenceBuilder_Test.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\obj\Release\Q730.Form_Tester.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\obj\Release\Q730.Properties.Resources.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\obj\Release\Q730.UserControls.Graphs.UserControl_DcGraph.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\obj\Release\Q730.UserControls.Graphs.UserControl_DcrGraph.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\obj\Release\Q730.UserControls.Graphs.UserControl_FraAcrGraph.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\obj\Release\Q730.UserControls.Graphs.UserControl_PatternGraph.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\obj\Release\Q730.UserControls.Graphs.UserControl_TraGraph.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\obj\Release\Q730.UserControls.UserControl_CaptionBar.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\obj\Release\Q730.UserControls.UserControl_ChannelGridView.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\obj\Release\Q730.UserControls.UserControl_ChannelDetailView.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\obj\Release\Q730.UserControls.UserControl_ChannelListView.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\obj\Release\Q730.NotUsed.UserControl_ParameterBox.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\obj\Release\Q730.NotUsed.UserControl_ParameterItem.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\obj\Release\Q730.DataViewer.UserControl_DataViewer.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\obj\Release\Q730.UserControls.UserControl_Graph.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\obj\Release\Q730.UserControls.UserControl_GraphGridView.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\obj\Release\Q730.UserControls.UserControl_RecipeItem.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\obj\Release\Q730.UserControls.UserControl_SequenceBuilder.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\obj\Release\Q730.NotUsed.UserControl_TimeBox.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\obj\Release\Q730.UserControls.UserControl_SequenceBuilder_Stability.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\obj\Release\Q730.UserControls.UserControl_SequenceProgressBox.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\obj\Release\Q730.UserControls.UserControl_SequenceViewer.resources
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\obj\Release\Q730.csproj.GenerateResource.cache
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\obj\Release\Q730.csproj.CoreCompileInputs.cache
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\obj\Release\Q730.exe
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\bin\Release\PatchNote.txt
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\bin\Release\Q730.exe.config
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\bin\Release\Q730.exe
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\bin\Release\JmCmdLib.dll
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\bin\Release\McQLib.dll
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\bin\Release\Microsoft.WindowsAPICodePack.dll
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\bin\Release\Microsoft.WindowsAPICodePack.ExtendedLinguisticServices.dll
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\bin\Release\Microsoft.WindowsAPICodePack.Sensors.dll
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\bin\Release\Microsoft.WindowsAPICodePack.Shell.dll
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\bin\Release\Microsoft.WindowsAPICodePack.ShellExtensions.dll
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\bin\Release\ZedGraph.dll
+D:\Projects\Q\Q730 SW 개발\nQ730 (v1.0)\Q730\obj\Release\Q730.csproj.CopyComplete
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\bin\Release\PatchNote.txt
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\bin\Release\Q730.exe
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\bin\Release\JmCmdLib.dll
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\bin\Release\McQLib.dll
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\bin\Release\Microsoft.WindowsAPICodePack.dll
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\bin\Release\Microsoft.WindowsAPICodePack.ExtendedLinguisticServices.dll
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\bin\Release\Microsoft.WindowsAPICodePack.Sensors.dll
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\bin\Release\Microsoft.WindowsAPICodePack.Shell.dll
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\bin\Release\Microsoft.WindowsAPICodePack.ShellExtensions.dll
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\bin\Release\ZedGraph.dll
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\obj\Release\Q730.csproj.AssemblyReference.cache
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\obj\Release\Q730.CustomMessageBox.resources
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\obj\Release\PacketParser.Form1.resources
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\obj\Release\Q730.Form_Configuration.resources
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\obj\Release\Q730.Form_Main.resources
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\obj\Release\Q730.Form_PatchNote.resources
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\obj\Release\Q730.Form_PatternEditor.resources
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\obj\Release\Q730.Form_SequenceBuilder.resources
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\obj\Release\Q730.Form_SequenceBuilder_Test.resources
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\obj\Release\Q730.Properties.Resources.resources
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\obj\Release\Q730.UserControls.Graphs.UserControl_DcGraph.resources
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\obj\Release\Q730.UserControls.Graphs.UserControl_DcrGraph.resources
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\obj\Release\Q730.UserControls.Graphs.UserControl_FraAcrGraph.resources
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\obj\Release\Q730.UserControls.Graphs.UserControl_PatternGraph.resources
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\obj\Release\Q730.UserControls.Graphs.UserControl_TraGraph.resources
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\obj\Release\Q730.UserControls.UserControl_CaptionBar.resources
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\obj\Release\Q730.UserControls.UserControl_ChannelGridView.resources
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\obj\Release\Q730.UserControls.UserControl_ChannelDetailView.resources
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\obj\Release\Q730.UserControls.UserControl_ChannelListView.resources
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\obj\Release\Q730.NotUsed.UserControl_ParameterBox.resources
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\obj\Release\Q730.NotUsed.UserControl_ParameterItem.resources
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\obj\Release\Q730.UserControls.UserControl_Graph.resources
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\obj\Release\Q730.UserControls.UserControl_GraphGridView.resources
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\obj\Release\Q730.UserControls.UserControl_RecipeItem.resources
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\obj\Release\Q730.UserControls.UserControl_SequenceBuilder.resources
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\obj\Release\Q730.NotUsed.UserControl_TimeBox.resources
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\obj\Release\Q730.UserControls.UserControl_SequenceBuilder_Stability.resources
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\obj\Release\Q730.UserControls.UserControl_SequenceProgressBox.resources
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\obj\Release\Q730.UserControls.UserControl_SequenceViewer.resources
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\obj\Release\Q730.csproj.GenerateResource.cache
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\obj\Release\Q730.csproj.CoreCompileInputs.cache
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\obj\Release\Q730.csproj.CopyComplete
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\obj\Release\Q730.exe
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\obj\Release\Q730.Form_TextExportSetting.resources
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\obj\Release\Q730.Tester.Form_Tester.resources
+D:\Projects\Q\Q730 SW 개발\[Git] nQ730\Q730\bin\Release\McQLib.xml

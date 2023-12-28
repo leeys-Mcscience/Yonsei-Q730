@@ -1,0 +1,24 @@
+﻿v1.0 Release_20210903
+(1) 명령어 추가
+	- call : Target의 메서드를 호출하는 명령어
+	- set : Target의 필드 또는 set 설정자로 값을 지정하는 명령어
+	- get : Target의 필드 또는 get 접근자로 값을 가져오는 명령어
+	- pick : Target의 필드를 Target으로 설정하는 명령어
+	- return : pick한 개체를 내려놓고 이전 Target으로 되돌아가는 명령어
+	- show : 현재 Target의 필드 및 메서드 목록을 보여주는 명령어
+	- !help : 모든 명령어 목록 보여주기
+
+(2) Processing 메서드를 오버라이드하여 커스터마이징할 수 있도록 virtual로 선언
+	- 단, 여전히 기존 Processing 메서드에서 오브젝트에 대한 각종 처리를 해주기 때문에, 오버라이드하고 base 키워드로 호출하는 방식으로는 커스터마이징에 한계가 있을 것으로 보임
+
+(3) Password 기능 추가
+	- JmConsole.Lock() 메서드로 콘솔을 잠글 수 있음
+	- 보안성은 취약함(비밀번호 문자열을 Form_Console이 멤버로 가지고 있음)
+	- 5회 입력 오류가 발생할 경우 Form_Console의 생성자를 잠금
+
+v1.1 Release_20220217
+(1) 오류 수정
+	- get 명령이 속성에 적용되지 않던 문제 해결
+
+(2) 기능 추가
+	- monitor 명령 추가

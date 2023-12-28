@@ -1,0 +1,12 @@
+/.suo
+.suo/*
+.csproj/*
+.dll/*
+.pdb/*
+.config/*
+.log/*
+.cache/*
+.exe/*
+*.log
+*.cache
+/Debug
